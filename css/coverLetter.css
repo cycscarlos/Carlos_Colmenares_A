@@ -11,8 +11,9 @@
   position: relative;
   background-color: var(--white-color);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
-  width: 31.3em; /* 31.25em = 500px */
-  height: 34.4em; /* 34.375em = 550px */
+  width: 31.3rem; /* 31.25em = 500px */
+  /*height: 34.4em; /* 34.375em = 550px */
+  height: 37.5rem; /* 37.5em = 600px */
   transform-style: preserve-3d;
   transform: perspective(2000px);
   transition: 1s;
