@@ -12,7 +12,6 @@
   background-color: var(--white-color);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
   width: 31.3rem; /* 31.25em = 500px */
-  /*height: 34.4em; /* 34.375em = 550px */
   height: 37.5rem; /* 37.5em = 600px */
   transform-style: preserve-3d;
   transform: perspective(2000px);
@@ -68,7 +67,6 @@
 .letter .letter-details p {
   text-align: justify;
   margin: 0.6em auto;
-  /*line-height: 1.3em; /* 1.25em = 20px */
   line-height: 1.5;
   letter-spacing: 0.2px;
   padding: 0px 0.6em; /* 0.625em = 10px */
@@ -101,13 +99,13 @@
 
 /*: iPad styles */
 @media only screen and (max-width: 768px) {
-  .coverLetter {
+  /* .coverLetter {
     display: none;
   }
 
   .imgBox {
     display: none;
-  }
+  } */
 
   .mobile_coverLetter {
     display: block;
@@ -120,8 +118,8 @@
 
   .mobile_letter {
     width: 90%;
-    height: 48rem;
-    margin: 0 auto 5em auto; /* 5em = 80px */
+    height: 52rem;
+    margin: 0 10px 5em 10px;
     position: relative;
     background-color: var(--white-color);
     box-shadow: none;
@@ -171,7 +169,8 @@
 /*: Smartphones */
 @media only screen and (max-width: 500px) {
   .mobile_letter .mobile_letter-details p {
-    margin: 1em 2em;
+    /* margin: 1em 2em; */
+    margin: 10px 10px;
     line-height: 1.8;
     letter-spacing: 0.3px;
     font-size: 0.9em;
