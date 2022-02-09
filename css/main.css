@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&family=Open+Sans:wght@300;400;700&display=swap");
+
+/* Definición de aspectos generales y custom properties o variables   */
+* {
+  box-sizing: border-box;
+}
+:root {
+  /* @link https://utopia.fyi/type/calculator?c=320,16,1.2,1140,20,1.25,5,4,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l */
+  --step--4: clamp(0.48rem, 0.47rem + 0.06vw, 0.51rem);
+  --step--3: clamp(0.58rem, 0.55rem + 0.12vw, 0.64rem);
+  --step--2: clamp(0.69rem, 0.65rem + 0.21vw, 0.8rem);
+  --step--1: clamp(0.83rem, 0.77rem + 0.33vw, 1rem);
+  --step-0: clamp(1rem, 0.9rem + 0.49vw, 1.25rem);
+  --step-1: clamp(1.2rem, 1.06rem + 0.71vw, 1.56rem);
+  --step-2: clamp(1.44rem, 1.24rem + 1vw, 1.95rem);
+  --step-3: clamp(1.73rem, 1.45rem + 1.39vw, 2.44rem);
+  --step-4: clamp(2.07rem, 1.69rem + 1.91vw, 3.05rem);
+  --step-5: clamp(2.49rem, 1.97rem + 2.59vw, 3.82rem);
+
+  --font-body: "Open Sans Condensed", sans-serif;
+  --font-logo: "Times New Roman", sans-serif;
+  --font-profile: "Open Sans Condensed", sans-serif;
+  --font-coverLetter: "Open Sans Condensed", sans-serif;
+
+  /* Social Media icons colors */
+  --color-whatsapp: #00bd2c;
+  --color-twitter: #1da1f2;
+  --color-instagram: #833ab4;
+  --color-linkedin: #0a66c2;
+
+  /* My preferred colors */
+  --main-color: #ff4c00;
+  --hard-color: #1c3643;
+  --middle-color: #273b47;
+  --light-color: #1e5372;
+  --white-color: #ffffff;
+  --black-color: #000000;
+  --green-color: #08f1af;
+
+  /* Website colors */
+  --theme-color: #ffffff;
+  --primary-color: #124f88;
+  --secondary-color: #f7c331;
+  --yellow-color: #f7c331;
+  --text-color-inverse: white;
+  --text-color: #2a2a2a;
+  --navbar-shadow-color: #e5e5e5;
+  --menu-mobile-background-color: #3a4460;
+  --experience-color: #25537e;
+  --skill-color: #124f88;
+  --content-color: #dadada;
+  --contact-color: #08f1af;
+  --contact-text-color: #333;
+  --logo-color: #124f88;
+  --background-boton-color: #124f88;
+  --background-contact-color: #1c3643;
+  --boton-contact-color: #08f1af;
+  --background-letter-color: #fff;
+  --letter-color: #000;
+  --letter-cite-color: #1e5372;
+  --coverLetter-color: #2a2a2a;
+  --coverLetter-bg-color: #f5f5dc;
+  --logotype-color: #9d8d6c;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-size: 16px;
+  font-family: var(--font-body);
+  font-weight: 300;
+  background-color: var(--theme-color);
+  color: var(--text-color);
+  padding-top: 70px;
+}
+
+/* tamaño barra de navegación */
+section[id] {
+  scroll-margin-top: 8.75rem; /* 8.75rem = 140px */
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Website Dark Theme colors */
+.dark-theme {
+  --theme-color: #262626;
+  --primary-color: white;
+  --secondary-color: #fff;
+  --text-color: white;
+  --coverLetter-color: #2a2a2a;
+  --experience-color: #2e2d2d;
+  --logo-color: white;
+  --boton-color: #124f88;
+  --background-boton-color: #2e2d2d;
+  --background-contact-color: #2e2d2d;
+  --skill-color: #f7c331;
+  --contact-color: white;
+  --background-letter-color: bisque;
+  --background-letter-color: #262626;
+  --letter-color: #333;
+  --letter-cite-color: #1e5372;
+  --logotype-color: #9d8d6c;
+}
+
+/* Margenes mínimos en dispositivos móviles */
+.horizontal-padding {
+  padding-left: 1.56em; /* 1.5625em = 25px */
+  padding-right: 1.56em;
+}
+.vertical-padding {
+  padding-top: 1.56em; /* 1.5625em = 25px */
+  padding-bottom: 1.56em;
+}
+
+/* Margenes mínimos en dispositivos desktop */
+@media only screen and (min-width: 768px) {
+  .horizontal-padding {
+    padding-left: 4.4em; /* 4.375em = 70px */
+    padding-right: 4.4em;
+  }
+  .vertical-padding {
+    padding-top: 4.4em; /* 4.375em = 70px */
+    padding-bottom: 4.4em;
+  }
+  .vertical-padding-v2 {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+/*: Smartphone typography size style */
+@media only screen and (min-width: 500px) {
+  body {
+    font-size: 14px;
+  }
+}
+/*: iPad portrait typography size style */
+@media only screen and (min-width: 768px) {
+  body {
+    font-size: 15px;
+  }
+}
+/*: iPad landscape typography size style */
+@media only screen and (min-width: 1024px) {
+  body {
+    font-size: 16px;
+  }
+}
+/*: Desktop typography size style */
+@media only screen and (min-width: 1200px) {
+  body {
+    font-size: 16px;
+  }
+}

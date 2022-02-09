@@ -1,0 +1,109 @@
+/*: Smartphone styles */
+.otherSkills {
+  max-width: 61.3rem; /* 61.25rem = 980px */
+  margin: 0 auto;
+}
+
+.otherSkills-title {
+  font-size: 1.9em; /* 1.875em = 30px */
+  margin: 0.625em auto; /* 0.625em = 10px */
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--primary-color);
+}
+
+.otherSkills-subtitle {
+  font-size: 1.3em; /* 1.25rem = 20px */
+  margin: 3.2em auto 2.5rem auto; /* 3.125em = 50px  & 2.5em = 40px*/
+  font-weight: bold;
+  text-align: center;
+  color: var(--skill-color);
+}
+
+.otherSkills-list {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+
+  /*# Solo para igualar a Skills   */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.otherSkills-skill {
+  font-size: 1.1em; /* 1.0625em = 17px */
+  font-weight: 500;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 42px;
+  padding: 0.5em 0.7em;
+  margin: 0.6em; /* 0.625em = 10px */
+}
+
+/*: iPads portrait styles */
+@media only screen and (min-width: 768px) {
+  .otherSkills-title {
+    font-size: 2.5em; /* 2.5em = 40px */
+    margin: 1.6em auto; /* 1.5625em = 25px */
+  }
+  .otherSkills-subtitle {
+    font-size: 1.6em; /* 1.5625em = 25px */
+    margin: 3.1em auto; /* 31.125em = 50px */
+  }
+  .otherSkills-skill {
+    font-size: 1.5em; /* 1.5rem = 24px */
+    padding: 0.5em 0.7em;
+    margin: 0.6em; /* 0.625rem = 10px */
+  }
+}
+
+/*: Desktop & iPads landscape styles */
+
+@media only screen and (min-width: 1024px) {
+  .otherSkills-title {
+    font-size: 2.5em; /* 2.5rem = 40px */
+  }
+
+  .otherSkills-subtitle {
+    font-size: 1.6em; /* 1.5625em = 25px */
+    margin: 1.9em auto; /* 1.875rem = 30px */
+  }
+
+  .otherSkills-list {
+    /*_ Solo para igualar a Skills   */
+    display: block;
+  }
+
+  .otherSkillsGrid-container {
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas:
+      "mainframe networking security"
+      "mainframe networking security";
+    justify-content: space-between;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: minmax(15.8em); /* 15.75rem = 252px */
+    grid-gap: 2px;
+  }
+
+  .mainframe {
+    grid-area: mainframe;
+    justify-self: start;
+    align-self: flex-start;
+  }
+
+  .networking {
+    grid-area: networking;
+    justify-self: center;
+    align-self: flex-start;
+  }
+
+  .security {
+    grid-area: security;
+    justify-self: flex-end;
+    align-self: flex-start;
+  }
+}

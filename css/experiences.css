@@ -1,0 +1,185 @@
+/*: Smartphone styles */
+.experiences {
+  display: flex;
+  flex-direction: column;
+   max-width: 70%;
+   margin:0 auto;
+}
+
+.experience {
+  padding: 1.6em; /* 1.5625em = 25px */
+  max-width: 31.3em; /* 31.25em = 500px */
+  margin: 0 auto;
+}
+
+.experiences-body {
+  background-color: var(--experience-color);
+  color: var(--white-color);
+}
+
+.wave {
+  width: 100%;
+  position: relative;
+  top: 2px;
+}
+
+.wave_bottom {
+  transform: scaleY(-1);
+  top: -2px;
+}
+
+.experiences-title {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.9em; /* 1.875em = 30px */
+  font-weight: 500;
+  margin: 1.6em; /* 1.5625em = 25px */
+}
+
+.experience-date {
+  font-size: 1.6em; /* 1.5625em = 25px */
+  font-weight: bold;
+  color: var(--yellow-color);
+}
+
+.experience-company {
+  font-size: 1.3em; /* 1.25em = 20px */
+  text-transform: uppercase;
+  margin-top: 0.3em; /* 0.3125em = 5px */
+}
+
+.experience-position {
+  font-size: 1.1em; /* 1.125em = 18px */
+  margin-top: 1.3em; /* 1.125em = 20px */
+}
+
+.experience-description {
+  margin-top: 0.6em; /* 0.625em = 10px */
+}
+
+.experience-description ul li {
+  padding-bottom: 0.6em; /* 0.625em = 10px */
+  font-size: 1.1em; /* 1.0625em = 17px */
+  line-height: 1.5;
+}
+
+.experience-description ul li span {
+  font-size: 0.9em; /* 0.9375em = 15px */
+  font-style: italic;
+}
+
+/*: iPad portrait styles */
+@media only screen and (min-width: 768px) {
+  .experiences-title {
+    /* font-size: 2.5em; /* 2.5em = 40px */
+    margin: 2.2em 0; /* 2.1875em = 35px */
+  }
+
+  /*.experience-date {
+    font-size: 2.5em; /* 2.5em = 40px} */
+
+  /*.experience-company {
+    font-size: 1.6em; /* 1.5625em = 25px} */
+
+  .experience-position {
+    font-weight: bold;
+    /*font-size: 1.3em; /* 1.3125em = 21px */
+    margin-top: 1.3em; /* 1.25em = 20px */
+  }
+
+  .experience-description {
+    /*font-size: 1.5em; /* 1.5em = 24px */
+    margin-top: 0.6em; /* 0.625em = 10px */
+    line-height: 1.3;
+  }
+
+  .experience-description ul li {
+    padding-bottom: 0.6em; /* 0.625em = 10px */
+    /*font-size: 1em;
+    line-height: 1.5; */
+  }
+  /*.experience-description ul li span {
+    font-size: 0.7em;
+  }*/
+
+  .experience {
+    padding: 0;
+  }
+
+  .experience_left {
+    text-align: right;
+  }
+  .experience_right {
+    text-align: left;
+    margin-left: 5em; /* 5em = 80px */
+  }
+  .experiences-grid {
+    display: grid;
+    grid-template-columns: auto 2px auto;
+    gap: 1.3em 4.4em; /* 1.25em = 20px & 4.375em = 70px */
+    padding: 4.4em; /* 4.375em = 70px */
+    justify-content: center;
+    max-width: 48em; /* 48emem = 768px */
+    margin: 0 auto;
+  }
+
+  .line {
+    background-color: var(--white-color);
+    position: relative;
+  }
+
+  .line::before,
+  .line::after {
+    content: "";
+    display: block;
+    width: 1.3em; /* 1.25em = 20px */
+    height: 1.3em; /* 1.25em = 20px */
+    background-color: var(--white-color);
+    border-radius: 50%;
+
+    position: absolute;
+    top: -1.3em; /* -1.25em = -20px */
+    left: -0.6em; /* -0.5625em = -9px */
+  }
+
+  .line::after {
+    top: 100%;
+    z-index: 1;
+  }
+}
+
+/*: Desktop & iPad landscape styles */
+@media only screen and (min-width: 1024px) {
+  .experiences-grid {
+    max-width: 61.3em; /* 61.3em = 980px */
+    display: grid;
+    grid-template-columns: auto 2px auto;
+    gap: 1.3em 4.4em; /* 1.25em = 20px & 4.375em = 70px */
+    padding: 4.4em; /* 4.375em = 70px */
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .experiences-title {
+    /* font-size: 2.5em; /* 2.5em = 40px */
+    margin: 1.57em; /* 1.5625em = 25px */
+  }
+  /*.experience-date {
+    font-size: 2.2em; /* 2.1875em = 35px} */
+
+  /* .experience-company {
+    font-size: 1.6em; /* 1.5625em = 25px} */
+
+  .experience-description {
+    margin-top: 0.6em; /* 0.625em = 10px */
+    /*  font-size: 1.1em; /* 1.25em = 20px */
+  }
+  /*.experience-description ul li {
+    font-size: 1.1em;
+  }*/
+  /*.experience-description ul li span {
+    font-size: 0.7em;
+  }*/
+  /*.experience-description ul li ul li span {
+    font-size: 0.7em;
+  }*/
+}

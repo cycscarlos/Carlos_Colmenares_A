@@ -1,0 +1,36 @@
+.pwaModal {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background-color: transparent;
+  margin-bottom: 0.9em; /* 0.9375rem = 20px */
+}
+.pwaModal p {
+  font-size: 0.83em;
+  margin: 0;
+  padding: 0;
+  color: var(--text-color);
+}
+.pwaModal button {
+  position: relative;
+  cursor: pointer;
+  background: var(--background-contact-color);
+  color: var(--boton-contact-color);
+  border: 1px solid var(--white-color); 
+  font-size: 0.83em;
+  padding: 0.3em; /* 0.312rem = 5px */
+  margin-left: 0.94em; /* 0.9375rem = 15px */
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+
+.pwaModal button:hover {
+  background: var(--light-color);
+}
