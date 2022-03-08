@@ -94,7 +94,8 @@
 .profile-img-section {
   position: relative;
   display: inline;
-  margin: 0 30%;
+  /* margin: 0 30%; */
+  margin: 0 15%;
 }
 
 .profile-img {
