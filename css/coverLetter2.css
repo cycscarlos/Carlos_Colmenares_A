@@ -1,0 +1,121 @@
+/*: Desktop + iPads landscape (768px) */
+.letter-container {
+  margin: 2.5em auto;
+  display: flex;
+  justify-content: center;
+  font-weight: 300;
+  width: 100%;
+}
+
+.letter {
+  position: relative;
+  background-color: var(--white-color);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  transform-style: preserve-3d;
+  transform: perspective(2000px);
+  transition: 1s;
+
+  min-width: 31.3rem;
+  min-height: 37.5rem;
+}
+
+.letter:hover {
+  transform: perspective(2000px) rotate(-3deg);
+}
+
+.letter .imgBox {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  transform-origin: left;
+  z-index: 1;
+  transition: 1s;
+}
+
+.letter:hover .imgBox {
+  transform: rotateY(-135deg);
+}
+
+.letter .imgBox img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.letter .letter-details {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  padding: 0.625rem;
+}
+
+.letter .letter-details h3 {
+  text-align: center;
+  font-size: 1.1em;
+  padding: 0.1em 0 0.2em 0;
+  margin: 0;
+  color: var(--letter-color);
+  font-weight: normal;
+  font-style: normal;
+}
+
+.letter .letter-details p {
+  text-align: justify;
+  margin: 0.6em auto;
+  line-height: 1.5;
+  letter-spacing: 0.2px;
+  padding: 0px 0.6em;
+  font-size: 0.82em;
+  font-family: var(--font-coverLetter);
+  font-weight: normal;
+  color: var(--letter-color);
+  background-color: var(--theme-color);
+}
+
+.letter .letter-details p span {
+  font-size: 0.8em; /* 0.6875em = 11px */
+  color: var(--letter-color);
+}
+
+.letter .letter-details p a {
+  color: var(--main-color);
+  text-decoration: underline;
+}
+
+@keyframes moverImg {
+  0% {
+    transform: translate(100%);
+  }
+}
+
+/*: Smartphone iPhone 6/7/8 Plus  */
+@media only screen and (max-width: 414px) {
+  .letter {
+    min-width: 414px;
+    min-height: 750px;
+  }
+  .letter:hover {
+    transform: perspective(2000px) rotate(0deg);
+  }
+}
+
+/*: Smartphone iPhone X  */
+@media only screen and (max-width: 375px) {
+  .letter {
+    min-width: 375px;
+    min-height: 812px;
+  }
+}
+
+/*: Smartphone Galaxy S5  */
+@media only screen and (max-width: 360px) {
+  .letter {
+    min-width: 360px;
+    min-height: 850px;
+  }
+}

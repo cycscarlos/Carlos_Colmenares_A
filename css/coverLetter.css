@@ -5,6 +5,7 @@
   justify-content: center;
   font-weight: 300;
   width: 100%;
+  border: 1px solid green;
 }
 
 .letter {
@@ -95,6 +96,22 @@
 .mobile_coverLetter {
   display: none;
 }
+/*: Smartphone iPhone 6/7/8 Plus  */
+@media screen and (min-width: 376px) and (max-width: 414px) {
+  .mobile_letter-container {
+    border: 2px solid red;
+  }
+}
+
+/*: Smartphone Samsung   */
+@media only screen and (max-width: 500px) {
+  .mobile_letter .mobile_letter-details p {
+    margin: 10px 10px;
+    line-height: 1.8;
+    letter-spacing: 0.3px;
+    font-size: 0.9em;
+  }
+}
 
 /*: iPad styles */
 @media only screen and (max-width: 768px) {
@@ -161,14 +178,5 @@
   .mobile_letter .mobile_letter-details p a {
     color: var(--main-color);
     text-decoration: underline;
-  }
-}
-/*: Smartphones */
-@media only screen and (max-width: 500px) {
-  .mobile_letter .mobile_letter-details p {
-    margin: 10px 10px;
-    line-height: 1.8;
-    letter-spacing: 0.3px;
-    font-size: 0.9em;
   }
 }
