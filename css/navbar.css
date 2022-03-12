@@ -156,6 +156,7 @@
     position: absolute;
     top: 1.8em; /* 1.7813em = 28.5px */
     right: 5em; /* 5em = 80px */
+    border: 1px solid var(--hamburguer-color);
   }
 
   .close-menu {

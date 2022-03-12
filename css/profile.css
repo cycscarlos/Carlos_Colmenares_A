@@ -33,9 +33,11 @@
   font-size: 0.9em; /* 0.875rem = 14px */
   font-style: italic;
 }
-.profile-details a {
-  color: var(--main-color);
+.profile-details a { 
+  color: var(--text-color);
   text-decoration: underline;
+  font-weight: 500;
+  font-style: italic;
 }
 .btnBx {
   position: relative;
@@ -52,6 +54,9 @@
   font-weight: none;
 }
 
+.btnBx a {
+  min-width: 100px;
+}
 .btnBx a span {
   font-size: 0.8em; /* 0.75rem = 12px */
   font-weight: none;
@@ -129,6 +134,7 @@
   .profile-details {
     margin: 1.25em 0; /* 1.25rem = 20px */
   }
+ 
   .profile-img-section {
     position: relative;
     display: inline;
