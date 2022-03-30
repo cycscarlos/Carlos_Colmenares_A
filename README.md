@@ -1,4 +1,4 @@
-![zCoder Banner!](img/readme_banner1.png)
+![zCoder Banner!](img/readme_banner1.jpg)
 
 <br>
 
@@ -6,11 +6,11 @@
 
 <br>
 
-###<h2 style="text-align: center; color: #9d8d6c">Responsive, Modern, and Multi-page HTML, CSS & Javascript website</h2>
+<h2 style="text-align: center; color: #9d8d6c">Responsive, Modern, and Multi-page HTML, CSS & Javascript website</h2>
 
 <br>
 
-###<h4 style="text-align: left; font-size: 20px">It's include the following features:</h4>
+<h4 style="text-align: left; font-size: 20px">It's include the following features:</h4>
 
 <br>
 
