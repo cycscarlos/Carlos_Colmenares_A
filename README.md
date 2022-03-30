@@ -1,18 +1,21 @@
-![zCoder Banner!](img/banner1.jpg)
+![zCoder Banner!](img/readme_banner1.png)
 
 <br>
 
 ---
 
-### <div><h3 style="text-align:center">Responsive, Modern, and Multi-page HTML, CSS & Javascript website</h3></div>
+<br>
+
+###<h2 style="text-align: center; color: #9d8d6c">Responsive, Modern, and Multi-page HTML, CSS & Javascript website</h2>
 
 <br>
 
-### <div ><h5 style="text-align:right">It's include the following features:</h5></div>
+###<h4 style="text-align: left; font-size: 20px">It's include the following features:</h4>
 
 <br>
+
 <ul style="text-align:justify; font-size:12x">
-<li>Background images and video</li>
+<li>Background images</li>
 <li>Change menu navigation background color on scroll</li>
 <li>Using of several CSS animation libraries for hover effects on: image, video, buttons, links, cards, sliders, icons, etc.</li>
 <li>Using of several JavaScript libraries for smooth scrolling, animations, etc.</li>
