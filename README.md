@@ -36,4 +36,5 @@ Take a look at the website at the following link [Github Pages] (https://cycscar
 <li>Responsive techniques for different devices, usng a CSS Clamp custom properties</li>
 <li>Definitions of Google Analytics for Crowlers, and much more...</li>
 <li>Dark mode for the website</li>
+<li>Progressive Web App Support (PWA)</li>
 </ul>
