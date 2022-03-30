@@ -1,4 +1,4 @@
-![zCoder Banner!](img/readme_banner1.jpg)
+<h2>Responsive, Modern, and Multi-page HTML, CSS & Javascript website</h2>
 
 <br>
 
@@ -6,18 +6,25 @@
 
 <br>
 
-<h2 style="text-align: center; color: #9d8d6c">Responsive, Modern, and Multi-page HTML, CSS & Javascript website</h2>
+![Website banner!](img/readme7.png)
 
 <br>
 
-<h4 style="text-align: left; font-size: 20px">It's include the following features:</h4>
+Take a look at the website at the following link [Github Pages] (https://cycscarlos.github.io/Carlos_Colmenares.A):
 
 <br>
 
-<ul style="text-align:justify; font-size:12x">
-<li>Background images</li>
+---
+
+<br>
+
+<h3>Its include the following features:</h3>
+
+<br>
+
+<ul>
 <li>Change menu navigation background color on scroll</li>
-<li>Using of several CSS animation libraries for hover effects on: image, video, buttons, links, cards, sliders, icons, etc.</li>
+<li>Using of several CSS animation libraries for hover effects</li>
 <li>Using of several JavaScript libraries for smooth scrolling, animations, etc.</li>
 <li>Social media icons definitons</li>
 <li>Use of Flexbox & Grid technics</li>
