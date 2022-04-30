@@ -31,13 +31,14 @@
 
 .profile-details span {
   font-size: 0.9em; /* 0.875rem = 14px */
-  font-style: italic;
+  /* font-style: italic; */
 }
-.profile-details a { 
-  color: var(--text-color);
-  text-decoration: underline;
+.profile-details a {
+  /* color: var(--text-color); */
+  /* text-decoration: underline; */
+  /* font-style: italic; */
+  color: var(--color-linkedin);
   font-weight: 500;
-  font-style: italic;
 }
 .btnBx {
   position: relative;
@@ -134,7 +135,7 @@
   .profile-details {
     margin: 1.25em 0; /* 1.25rem = 20px */
   }
- 
+
   .profile-img-section {
     position: relative;
     display: inline;
