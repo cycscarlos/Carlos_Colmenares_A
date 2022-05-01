@@ -80,8 +80,9 @@
 }
 
 .letter .letter-details p a {
-  font-weight: bold;
-  text-decoration: underline;
+  /* font-weight: bold;
+  text-decoration: underline; */
+  color: var(--color-linkedin);
 }
 
 @keyframes moverImg {
