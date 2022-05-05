@@ -129,7 +129,8 @@
 @media only screen and (max-width: 414px) {
   .letter {
     min-width: 414px;
-    min-height: 750px;
+    /* min-height: 750px; */
+    min-height: 800px;
   }
   .letter:hover {
     transform: perspective(2000px) rotate(0deg);
