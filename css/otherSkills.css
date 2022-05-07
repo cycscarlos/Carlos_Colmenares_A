@@ -8,7 +8,7 @@
   font-size: 1.9em; /* 1.875em = 30px */
   margin: 0.625em auto; /* 0.625em = 10px */
   font-weight: bold;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   text-align: center;
   color: var(--primary-color);
 }
@@ -68,6 +68,11 @@
   .otherSkills-subtitle {
     font-size: 1.6em; /* 1.5625em = 25px */
     margin: 1.9em auto; /* 1.875rem = 30px */
+  }
+
+  .security .otherSkills-subtitle {
+    font-size: 1.3em;
+    margin: 1.9em auto;
   }
 
   .otherSkills-list {

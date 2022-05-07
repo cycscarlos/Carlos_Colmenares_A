@@ -16,12 +16,12 @@
 .topnav {
   /** Reducir el tamaño del viewport y centrar los elementos dentro del bloque */
   position: relative;
-  max-width: 61.3em; /* 61.3em = 980px */
+  max-width: 61.3em;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.6em; /* 0.625em = 10px */
+  padding: 0.6em;
 }
 
 /*_ Logo */
@@ -42,27 +42,70 @@
   justify-content: center;
   flex-direction: column;
   margin-left: 1em;
-  font-size: 1.1em; /* 1.125em = 10px */
+  font-size: 1.1em;
   color: var(--logotype-color);
   font-weight: bold;
 }
 
 .logo span {
-  font-size: 0.8em; /* 0.75em = 12px */
+  font-size: 0.8em;
   font-style: italic;
   text-align: center;
 }
 
-/*_ Darkmode styles  */
+/** Darkmode styles  */
 .moon {
-  width: 1.8em; /* 1.8375em = 29.4px */
-  height: 1.9em; /* 1.9063em = 30.5px */
-  margin-right: 2.5em; /* 2.5em = 40px */
+  width: 1.8em;
+  height: 1.9em;
+  margin-right: 2.5em;
   align-self: center;
 }
 
 #icon {
   cursor: pointer;
+}
+
+/*: Botón Ingles/Español para PC & Tablets in landscape mode */
+.lenguaje {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lenguaje input[type="checkbox"] {
+  position: relative;
+  width: 40px;
+  height: 20px;
+  -webkit-appearance: none;
+  background: #c6c6c6;
+  outline: none;
+  border-radius: 20px;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+  transition: 0.5s;
+}
+.lenguaje input:checked[type="checkbox"] {
+  background: #03a9f4;
+}
+.lenguaje input[type="checkbox"]:before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  top: 0;
+  left: 0;
+  background: #fff;
+  transform: scale(1.1);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: 0.5s;
+}
+.lenguaje input:checked[type="checkbox"]:before {
+  left: 20px;
+}
+.lenguaje span {
+  margin: 0 0.5rem;
+  font-size: var(--step--2);
+  color: var(--logotype-color);
 }
 
 /*_ Menu de navegación */
@@ -74,12 +117,12 @@
 }
 
 .menu li {
-  padding: 0 0.9em; /* 0.9375em = 15px */
+  padding: 0 0.9em;
 }
 
 .menu a {
   color: var(--text-color);
-  font-size: 1.2em; /* 1em = 16px */
+  font-size: 1.2em;
   font-weight: 500;
   line-height: 1.4;
   text-transform: uppercase;
@@ -117,8 +160,11 @@
   display: none;
 }
 
-/*: smartphones & iPad portrait styles  */
+/*: iPad portrait styles  */
 @media (max-width: 768px) {
+  .logo span {
+    font-size: 1em; 
+  }
   .menu {
     flex-direction: column;
     position: fixed;
@@ -140,8 +186,8 @@
 
   .menu a {
     color: var(--white-color);
-    line-height: 3.8em; /* 3.75em = 60px */
-    font-size: 1.3em; /* 1.25em = 20px */
+    line-height: 3.8em;
+    font-size: 1.3em;
   }
 
   .open-menu,
@@ -154,14 +200,14 @@
   /** Reubicación del icono hamburguesa */
   .open-menu {
     position: absolute;
-    top: 1.8em; /* 1.7813em = 28.5px */
-    right: 5em; /* 5em = 80px */
+    top: 1.8em;
+    right: 5em;
     border: 1px solid var(--hamburguer-color);
   }
 
   .close-menu {
     align-self: flex-end;
-    padding: 1.6em 1em; /* 1.5625em = 25px & 1em = 16px */
+    padding: 1.6em 1em;
   }
 
   /** Un programa de JavaScript (botonApp), adjuntará o quitará la clase "menu-opened" al tag UL con la clase "menu"; cuando detecte (addEventListener) un "click" sobre el icono "X" (clase close-menu) o sobre el icono hamburguesa (clase open-menu). */
@@ -185,5 +231,30 @@
   .menu a:hover,
   .menu a.selected {
     color: var(--secondary-color);
+  }
+  .lenguaje {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+  }
+}
+
+/*: Smartphones styles */
+@media screen and (max-width: 500px) {
+  .lenguaje {
+    display: none;
+  }
+  .lenguaje.appears {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+  }
+  .logo span {
+    font-size: 0.6em;
   }
 }
