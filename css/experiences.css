@@ -2,8 +2,8 @@
 .experiences {
   display: flex;
   flex-direction: column;
-   max-width: 70%;
-   margin:0 auto;
+  max-width: 70%;
+  margin: 0 auto;
 }
 
 .experience {
@@ -66,6 +66,13 @@
 .experience-description ul li span {
   font-size: 0.9em; /* 0.9375em = 15px */
   font-style: italic;
+}
+
+.experience-description ul .lista-proyectos {
+  background: rgba(52, 95, 134, 0.8);
+  box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  padding: 0 7px;
 }
 
 /*: iPad portrait styles */
