@@ -93,6 +93,9 @@
 
 /*: Smartphones */
 @media screen and (max-width: 500px) {
+  .letter {
+    min-height: 39rem;
+  }
   .letter .imgBox img {
     width: 80%;
     position: absolute;
