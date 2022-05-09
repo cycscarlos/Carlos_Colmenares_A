@@ -91,6 +91,21 @@
   }
 }
 
+/*: Smartphones */
+@media screen and (max-width: 500px) {
+  .letter .imgBox img {
+    width: 80%;
+    position: absolute;
+    top: 0;
+    left: 10%;
+  }
+  .letter .letter-details {
+    position: absolute;
+    top: 0;
+    left: 5%;
+    right: 5%;
+  }
+}
 /*: Smartphone Samsung J2 & minimum viewport for Desktop   */
 @media screen and (min-width: 499px) and (max-width: 767px) {
   .letter .letter-details h3 {
@@ -118,20 +133,20 @@
   }
 }
 
-/*: Smartphone iPhone X  */
-@media only screen and (max-width: 375px) {
-  .letter {
-    min-width: 375px;
-    /* min-height: 812px; */
-    min-height: 850px;
-  }
-}
-
 /*: Smartphone Galaxy S5  */
 @media only screen and (max-width: 360px) {
   .letter {
     min-width: 360px;
     /* min-height: 850px; */
     min-height: 880px;
+  }
+}
+
+/*: Smartphone iPhone X  */
+@media only screen and (max-width: 375px) {
+  .letter {
+    min-width: 375px;
+    /* min-height: 812px; */
+    min-height: 850px;
   }
 }

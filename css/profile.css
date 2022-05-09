@@ -31,12 +31,8 @@
 
 .profile-details span {
   font-size: 0.9em; /* 0.875rem = 14px */
-  /* font-style: italic; */
 }
 .profile-details a {
-  /* color: var(--text-color); */
-  /* text-decoration: underline; */
-  /* font-style: italic; */
   color: var(--color-linkedin);
   font-weight: 500;
 }
@@ -108,6 +104,7 @@
   border-radius: 5px;
   width: 100%;
   max-width: 15em;
+  outline: none;
 }
 
 .profile-img-line {
@@ -121,6 +118,25 @@
 
 .coverLetter {
   display: none;
+}
+@media screen and (min-width: 415px) {
+  .profile-img-section {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0 25%; */
+    margin: 0 auto;
+  }
+  .profile-img-line {
+    background-color: var(--logotype-color);
+    height: 0.9em; /* 0.9375rem = 15px */
+    /* position: relative; */
+    width: 210px;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+  }
 }
 
 /*: iPad portrait styles */
@@ -136,10 +152,10 @@
     margin: 1.25em 0; /* 1.25rem = 20px */
   }
 
-  .profile-img-section {
+  /* .profile-img-section {
     position: relative;
     display: inline;
-  }
+  } */
   .btnBx {
     justify-content: space-around;
   }
@@ -149,10 +165,10 @@
   .profile-btn-letter {
     margin: 0.5em 2em;
   }
-  .profile-img {
+  /* .profile-img {
     width: 100%;
     max-width: 15em;
-  }
+  } */
 }
 
 /*: iPad landscape styles */
