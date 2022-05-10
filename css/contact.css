@@ -1,6 +1,6 @@
 /*: Desktop styles  */
 section[id="contact"] {
-  scroll-margin-top: 2.5rem; /* 2.5rem = 140 px */ 
+  scroll-margin-top: 2.5rem; /* 2.5rem = 140 px */
 }
 
 .contact {
@@ -32,10 +32,12 @@ section[id="contact"] {
   position: absolute;
   top: 2.5em; /* 2.5em = 40px */
   width: 23.1em; /* 23.125em = 370px */
-  height: 31.3em; /* 31.25em = 500px */
+  /* height: 31.3em; /* 31.25em = 500px */
+  /* height: auto; */
+  height: 570px;
   background: var(--background-contact-color);
   z-index: 1;
-  padding: 2.5em; /* 2.5em = 40px */
+  padding: 2.5em;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -45,22 +47,22 @@ section[id="contact"] {
 }
 
 .contact-container .contactInfo h2 {
-  font-size: 1.5em; /* 1.5em = 240px */
+  font-size: 1.5em;
   color: var(--green-color);
 }
 
 .contact-container .contactInfo ul.info {
   position: relative;
   margin: 0;
-  font-size: 1.1em; /* 1.125em = 18px */
+  font-size: 1.1em;
 }
 
 .contact-container .contactInfo ul.info li {
   position: relative;
   list-style: none;
   display: flex;
-  margin: 1.6em 0; /* 1.5625em = 25px */
-  padding-right: 1.3em; /* 1.25em = 20px */
+  margin: 1.6em 0;
+  padding-right: 1.3em;
   cursor: pointer;
   align-items: flex-start;
   pointer-events: none;
@@ -68,10 +70,10 @@ section[id="contact"] {
 }
 
 .contact-container .contactInfo ul.info li span:nth-child(1) {
-  width: 1.9em; /* 1.875em = 30px */
-  min-width: 1.9em; /* 1.875em = 30px */
+  width: 1.9em;
+  min-width: 1.9em;
   color: #fff;
-  margin-left: 0.6em; /* 0.625em = 10px */
+  margin-left: 0.6em;
   font-weight: 300;
 }
 
@@ -83,35 +85,35 @@ section[id="contact"] {
 
 .contact-container .contactInfo ul.info li span:nth-child(2) {
   color: #fff;
-  min-width: 1.9em; /* 1.875em = 30px */
-  margin-left: 0.6em; /* 0.625em = 10px */
+  min-width: 1.9em;
+  margin-left: 0.6em;
   font-weight: 300;
 }
 
 .contact-container .contactInfo ul.info li span a {
   display: block;
-  margin-top: 0.6em; /* 0.625em = 10px */
+  margin-top: 0.6em;
 }
 
 .contact-container .contactInfo ul.info li span a:nth-child(1) {
   color: #fff;
-  min-width: 1.9em; /* 1.875em = 30px */
-  margin-left: 0.6em; /* 0.625em = 10px */
+  min-width: 1.9em;
+  margin-left: 0.6em;
   font-weight: 300;
   pointer-events: all;
 }
 .contact-container .contactInfo ul.info li span a:nth-child(2) {
   color: #fff;
-  min-width: 1.9em; /* 1.875em = 30px */
-  margin-left: 0.6em; /* 0.625em = 10px */
+  min-width: 1.9em;
+  margin-left: 0.6em;
   font-weight: 300;
   pointer-events: all;
 }
 .contact-container .contactInfo ul.info li span a:nth-child(3) {
   color: #fff;
-  min-width: 1.9em; /* 1.875em = 30px */
-  margin-left: 0.6em; /* 0.625em = 10px */
-  margin-bottom: 0.6em; /* 0.625em = 10px */
+  min-width: 1.9em;
+  margin-left: 0.6em;
+  margin-bottom: 0.6em;
   font-weight: 300;
   pointer-events: all;
 }
@@ -122,7 +124,7 @@ section[id="contact"] {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: -2.5em; /* -2.5em = -40px */
+  margin-top: -2.5em;
 }
 
 .contact-container .contactInfo ul.sci li {
@@ -134,12 +136,12 @@ section[id="contact"] {
 
 .contact-container .contactInfo ul.sci li a {
   text-decoration: none;
-  padding: 1.6em; /* 1.5625em = 25px */
+  padding: 1.6em;
 }
 
 .sci li a .fab {
   color: var(--white-color);
-  font-size: 2em; /* 2em = 32px */
+  font-size: 2em;
 }
 
 /*_ Hover effects on social media icons */
@@ -175,10 +177,10 @@ section[id="contact"] {
 /*_ Formulario */
 .contact-container .contactForm {
   position: absolute;
-  padding: 4.4em 3.1em; /* 4.375em = 70px & 3.125em = 50px */
-  padding-left: 15.6em; /* 15.625em = 250px */
-  margin-left: 9.4em; /* 9.375em = 150px */
-  width: calc(100% - 9.4em); /* 9.375em = 150px */
+  padding: 4.4em 3.1em;
+  padding-left: 15.6em;
+  margin-left: 9.4em;
+  width: calc(100% - 9.4em);
   height: 100%;
   background: rgba(255, 255, 255, 0.2);
   box-shadow: 0 50px 50px rgba(0, 0, 0, 0.25);
@@ -187,7 +189,7 @@ section[id="contact"] {
 .contact-container .contactForm h2 {
   color: var(--text-color);
   text-align: center;
-  font-size: 1.9em; /* 1.875em = 30px */
+  font-size: 1.9em;
   font-weight: 500;
 }
 
@@ -196,13 +198,13 @@ section[id="contact"] {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding-top: 1.9em; /* 1.875em = 30px */
+  padding-top: 1.9em;
   font-size: 18px;
 }
 
 .contact-container .contactForm .formBox .inputBox {
   position: relative;
-  margin-bottom: 2.2em; /* 2.1875em = 35px */
+  margin-bottom: 2.2em;
 }
 
 .contact-container .contactForm .formBox .inputBox.w50 {
@@ -216,8 +218,8 @@ section[id="contact"] {
 .contact-container .contactForm .formBox .inputBox textarea {
   width: 100%;
   resize: none;
-  padding: 0.3em 0; /* 0.3125em = 5px */
-  font-size: 1.1em; /* 1.125em = 18px */
+  padding: 0.3em 0;
+  font-size: 1.1em;
   font-weight: 300;
   color: #333;
   border: none;
@@ -234,10 +236,10 @@ section[id="contact"] {
 .contact-container .contactForm .formBox .inputBox span {
   position: absolute;
   left: 0;
-  padding: 0.3em 0; /* 0.3125em = 5px */
+  padding: 0.3em 0;
   pointer-events: none;
   font-size: var(--step-0);
-  font-size: 1.1em; /* 1.125em = 18px */
+  font-size: 1.1em;
   font-weight: 300;
   color: var(--text-color);
   transition: 0.3s;
@@ -247,8 +249,8 @@ section[id="contact"] {
 .contact-container .contactForm .formBox .inputBox input:valid ~ span,
 .contact-container .contactForm .formBox .inputBox textarea:focus ~ span,
 .contact-container .contactForm .formBox .inputBox textarea:valid ~ span {
-  transform: translateY(-20px); /*-1.15em=-20px*/
-  font-size: 0.8em; /*0.75em=12px*/
+  transform: translateY(-20px);
+  font-size: 0.8em;
   font-weight: 500;
   letter-spacing: 1px;
   color: var(--green-color);
@@ -285,13 +287,14 @@ section[id="contact"] {
   .contact-container {
     width: 90%;
     min-width: auto;
-    margin: 1.3em; /* 1.25em = 20px */
+    margin: 1.3em;
     box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
   }
   .contact-container .contactInfo {
     top: 0;
     width: 21.9em; /* 21.875em = 350px */
-    height: 34.4em; /* 34.375em = 550px */
+    /* height: 34.4em; /* 34.375em = 550px */
+    height: auto;  
     position: relative;
   }
 
@@ -306,7 +309,7 @@ section[id="contact"] {
     margin: 0 auto;
   }
   .contact-container .contactInfo .sci li a {
-    padding: 1.6em; /* 1.5625em = 25px */
+    padding: 1.6em;
   }
 
   .contact-container .contactForm {
@@ -315,10 +318,10 @@ section[id="contact"] {
     height: 100%; /*# anterior: auto */
     padding-left: 0;
     margin-left: 0;
-    padding: 2.5em; /* 2.5em = 40px */
+    padding: 2.5em;
   }
   .contact-container .contactForm .formBox .inputBox input[type="submit"] {
-    font-size: 1.5em; /* 1.5em = 24px */
+    font-size: 1.5em;
   }
 }
 
@@ -348,10 +351,10 @@ section[id="contact"] {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-right: 3.1em; /* 3.125em = 50px */
+    margin-right: 3.1em;
   }
   .contact-container .contactInfo .sci li a {
-    padding: 1.9em; /* 1.8.75em = 30px */
+    padding: 1.9em;
   }
 
   .contact-container .contactForm {
@@ -374,21 +377,35 @@ section[id="contact"] {
     width: 100%;
   }
   .contact-container .contactInfo .sci li a {
-    padding: 1.9em; /* 1.875em = 30px */
+    padding: 1.9em;
+  }
+  .contact-container .contactInfo h2 {
+    font-size: 2em;
+  }
+
+  .contact-container .contactInfo ul.info {
+    font-size: 1.5em;
   }
 }
 
 /*: Smartphones styles */
 @media (max-width: 640px) {
   .contact-container .contactInfo {
-    padding: 1.6em; /* 1.5625em = 25px */
+    padding: 1.6em;
     flex-direction: column;
     align-items: flex-start;
+  }
+  .contact-container .contactInfo h2 {
+    font-size: 1.5em;
+  }
+
+  .contact-container .contactInfo ul.info {
+    font-size: 1.1em;
   }
 
   .contact-container .contactInfo ul.sci {
     width: 100%;
-    margin-top: 2.5em; /* 2.5em = 40px */
+    margin-top: 2.5em;
     display: flex;
     justify-content: center;
     padding-right: 0px;
@@ -399,13 +416,13 @@ section[id="contact"] {
   .contact-container .contactInfo ul.sci li a {
     display: inline-block;
     text-align: center;
-    padding-left: 0.6em; /* 0.625em = 10px */
+    padding-left: 0.6em;
   }
   .contact-container .contactInfo ul.sci li a .fab {
-    font-size: 1.8rem; /* 1.75em = 28px */
+    font-size: 1.8rem;
   }
   .contact-container .contactForm {
-    padding: 1.6em; /* 1.5625em = 25px */
+    padding: 1.6em;
   }
   .contact-container .contactForm .formBox .inputBox.w50 {
     width: 100%;
