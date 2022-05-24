@@ -102,11 +102,9 @@
 }
 
 .profile-img {
-  border-radius: 50%;
-  /* width: 216px; */
-  width: 288px;
-  height: 288px;
-  /* max-width: 7.5em; */
+  border-radius: 50%;  
+  /* width: 288px;
+  height: 288px; */
   max-width: 7em;
   outline: none;
   box-shadow: 0 5px 25px 10px rgba(0, 0, 0, 0.5);
