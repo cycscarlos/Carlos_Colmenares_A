@@ -102,9 +102,7 @@
 }
 
 .profile-img {
-  border-radius: 50%;  
-  /* width: 288px;
-  height: 288px; */
+  border-radius: 50%;
   max-width: 7em;
   outline: none;
   box-shadow: 0 5px 25px 10px rgba(0, 0, 0, 0.5);
@@ -114,9 +112,11 @@
   background-color: var(--logotype-color);
   height: 0.9em;
   position: absolute;
-  width: 100%;
-  left: 0;
+  /* width: 100%; */
+  width: 50%;
+  left: 50%;
   bottom: 0;
+  transform: translateX(-50%);
 }
 
 .coverLetter {
@@ -179,7 +179,6 @@
   }
   .profile-info {
     margin: 1.25em 0 0 4em;
-    /* margin-bottom: 0px; */
   }
   .profile-title {
     font-size: 2.5em;
