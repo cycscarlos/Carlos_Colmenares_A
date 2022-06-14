@@ -33,7 +33,8 @@
   font-size: 0.9em;
 }
 .profile-details a {
-  color: var(--color-linkedin);
+  color: var(--logotype-color);
+  text-decoration: dotted underline;
   font-weight: 500;
 }
 .btnBx {
