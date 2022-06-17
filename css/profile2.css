@@ -37,6 +37,12 @@
   text-decoration: dotted underline;
   font-weight: 500;
 }
+
+.profile-details small {
+  font-style: italic;
+  letter-spacing: .5px;
+}
+
 .btnBx {
   position: relative;
   width: 100%;
@@ -47,6 +53,7 @@
   text-align: center;
   margin-top: 0.9em;
 }
+
 .btnBx button span {
   font-size: 0.8em;
   font-weight: none;
@@ -106,7 +113,7 @@
   border-radius: 50%;
   max-width: 7em;
   outline: none;
-  box-shadow: 0 5px 25px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 5px 10px 5px rgba(0, 0, 0, 0.5);
 }
 
 .profile-img-line {
@@ -124,6 +131,7 @@
   display: none;
 }
 
+/*: Smartphones styles */
 @media screen and (min-width: 415px) {
   .profile-img-section {
     position: relative;
