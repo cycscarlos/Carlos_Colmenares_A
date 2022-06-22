@@ -238,12 +238,12 @@
 
 /*: only Desktop & iPad landscape size */
 @media only screen and (min-width: 1024px) {
-  /* .experiences {
-    max-width: 80%;
-  } */
   .experiences {
-    max-width: 90%;
+    max-width: 80%;
   }
+  /* .experiences {
+    max-width: 90%;
+  } */
   .experience {
     max-width: 38em;
     padding: 1.6em 0;
@@ -309,7 +309,7 @@
   /*: Lightbox Buttom styles */
   .container-btn a:hover {
     letter-spacing: 0.25em;
-    background-color: var(--clr);    
+    background-color: var(--clr);
     color: white;
     box-shadow: 0 0 35px var(--clr);
   }
