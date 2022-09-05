@@ -63,6 +63,10 @@
   line-height: 1.5;
 }
 
+.experience-description .sublist {
+  margin-top: 1rem;
+}
+
 /*: Lightbox projects box styles */
 .experience-description .lista-proyectos-1,
 .experience-description .lista-proyectos-2,

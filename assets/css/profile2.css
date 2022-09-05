@@ -1,6 +1,7 @@
 /*: Smartphones styles */
 .profile {
   text-align: justify;
+  caret-color: transparent;
 }
 
 .profile-info {
@@ -8,8 +9,11 @@
 }
 
 .profile-title {
-  font-size: 1.9em;
-  margin: 1.25em 0 1.25em 0;
+  /* font-size: 1.9em; */
+  /* margin: 1.25em 0 1.25em 0; */
+  /* font-size: 1.5em; */
+  font-size: var(--step-2);
+  margin: 1em 0 1.25em 0;
   color: var(--logo-color);
   font-family: var(--font-profile);
   font-weight: bold;
@@ -22,6 +26,7 @@
 
 .profile-details {
   font-size: 1em;
+  /* font-size: 0.9em; */
   font-weight: 300;
   line-height: 1.4;
   letter-spacing: normal;
@@ -31,6 +36,7 @@
 
 .profile-details span {
   font-size: 0.9em;
+  /* font-size: 0.8em; */
 }
 .profile-details a {
   color: var(--logotype-color);
@@ -40,7 +46,7 @@
 
 .profile-details small {
   /* font-style: italic; */
-  letter-spacing: .5px;
+  letter-spacing: 0.5px;
 }
 
 .btnBx {
@@ -159,7 +165,8 @@
     margin: 0 auto;
   }
   .profile-title {
-    font-size: 2.2em;
+    /* font-size: 2.2em; */
+    font-size: var(--step-2);
     margin: 1.25em 0;
   }
   .profile-details {
@@ -187,10 +194,13 @@
     align-items: center;
   }
   .profile-info {
-    margin: 1.25em 0 0 4em;
+    margin: 0 0 0 4em;
+    /* margin: 1.25em 0 0 4em; */
   }
   .profile-title {
-    font-size: 2.5em;
+    /* font-size: 2.5em; */
+    /* font-size: 2em; */
+    font-size: var(--step-2);
     margin: 0.6em 0;
   }
   .profile-details {
@@ -217,8 +227,11 @@
     justify-content: space-evenly;
   }
   .profile-title {
-    font-size: 2.2em;
-    margin: 0.6em 0;
+    /* font-size: 2.2em; */
+    /* font-size: 2em; */
+    font-size: var(--step-2);
+    /* margin: 0.6em 0; */
+    margin: 0;
   }
   .profile-details {
     margin: 1.3em 0;
