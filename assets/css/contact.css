@@ -54,6 +54,7 @@ section[id="contact"] {
 .contact-container .contactInfo ul.info {
   position: relative;
   margin: 0;
+  margin-top: 3.5rem;
   font-size: 1.1em;
 }
 
@@ -294,7 +295,7 @@ section[id="contact"] {
     top: 0;
     width: 21.9em; /* 21.875em = 350px */
     /* height: 34.4em; /* 34.375em = 550px */
-    height: auto;  
+    height: auto;
     position: relative;
   }
 
