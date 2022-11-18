@@ -26,26 +26,19 @@
 
 .profile-details {
   font-size: 1em;
-  /* font-size: 0.9em; */
   font-weight: 300;
   line-height: 1.4;
   letter-spacing: normal;
   margin: 1.3em 0;
   color: var(--text-color);
+  padding: 0 2rem;
 }
 
-/* .profile-details span {
-  font-size: 0.9em;
-  text-decoration: dotted underline;
-  font-weight: 500;
-} */
-
 .profile-details a {
-  color: var(--logotype-color); 
+  color: var(--logotype-color);
 }
 
 .profile-details small {
- 
   letter-spacing: 0.5px;
 }
 
