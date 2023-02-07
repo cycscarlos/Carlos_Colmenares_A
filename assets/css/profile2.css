@@ -38,6 +38,11 @@
   color: var(--logotype-color);
 }
 
+.profile-details span a:hover {
+  color: var(--main-color);
+  opacity: 0.5;
+}
+
 .profile-details small {
   letter-spacing: 0.5px;
 }
