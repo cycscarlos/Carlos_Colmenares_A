@@ -12,9 +12,9 @@ icon.onclick = function () {
   document.body.classList.toggle("dark-theme");
 
   if (document.body.classList.contains("dark-theme")) {
-    icon.src = "./img/sun.png";
-    darktop.src = "./img/wave2.svg";
-    darkBottom.src = "./img/wave2.svg";
+    icon.src = "./assets/img/sol.png";
+    darktop.src = "./assets/img/wave2.svg";
+    darkBottom.src = "./assets/img/wave2.svg";
 
     topheader.classList.toggle("darkShadow");
 
@@ -22,9 +22,9 @@ icon.onclick = function () {
     // networking.classList.toggle("darkSkill");
     // security.classList.toggle("darkSkill");
   } else {
-    icon.src = "./img/moon.png";
-    darktop.src = "./img/wave.svg";
-    darkbottom.src = "./img/wave.svg";
+    icon.src = "./assets/img/moon.png";
+    darktop.src = "./assets/img/wave.svg";
+    darkbottom.src = "./assets/img/wave.svg";
 
     topheader.classList.remove("darkShadow");
 

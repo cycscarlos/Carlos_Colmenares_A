@@ -1,0 +1,8 @@
+.copyrightTexto {
+  width: 100%;
+  padding: 8px 100px;
+  text-align: center;
+  color: var(--text-color); 
+  background-color: transparent;
+  font-size: 0.7rem;
+}

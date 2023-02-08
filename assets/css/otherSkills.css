@@ -5,8 +5,8 @@
 }
 
 .otherSkills-title {
-  font-size: 1.9em; /* 1.875em = 30px */
-  margin: 0.625em auto; /* 0.625em = 10px */
+  font-size: 1.6em;
+  margin: 0.625em auto;
   font-weight: bold;
   /* text-transform: uppercase; */
   text-align: center;
@@ -14,8 +14,8 @@
 }
 
 .otherSkills-subtitle {
-  font-size: 1.3em; /* 1.25rem = 20px */
-  margin: 3.2em auto 2.5rem auto; /* 3.125em = 50px  & 2.5em = 40px*/
+  font-size: 1.3em;
+  margin: 3.2em auto 2.5rem auto;
   font-weight: bold;
   text-align: center;
   color: var(--skill-color);
@@ -33,28 +33,28 @@
 }
 
 .otherSkills-skill {
-  font-size: 1.1em; /* 1.0625em = 17px */
+  font-size: 1em;
   font-weight: 500;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
   border-radius: 42px;
   padding: 0.5em 0.7em;
-  margin: 0.6em; /* 0.625em = 10px */
+  margin: 0.6em;
 }
 
 /*: iPads portrait styles */
 @media only screen and (min-width: 768px) {
   .otherSkills-title {
-    font-size: 2.5em; /* 2.5em = 40px */
-    margin: 1.6em auto; /* 1.5625em = 25px */
+    font-size: 2em;
+    margin: 1.6em auto;
   }
   .otherSkills-subtitle {
-    font-size: 1.6em; /* 1.5625em = 25px */
-    margin: 3.1em auto; /* 31.125em = 50px */
+    font-size: 1.25em;
+    margin: 3.1em auto;
   }
   .otherSkills-skill {
-    font-size: 1.5em; /* 1.5rem = 24px */
-    padding: 0.5em 0.7em;
-    margin: 0.6em; /* 0.625rem = 10px */
+    font-size: 1.5em;
+    /* padding: 0.5em 0.7em;
+    margin: 0.6em;  */
   }
 }
 
@@ -62,18 +62,24 @@
 
 @media only screen and (min-width: 1024px) {
   .otherSkills-title {
-    font-size: 2.5em; /* 2.5rem = 40px */
+    font-size: 2em;
   }
 
   .otherSkills-subtitle {
-    font-size: 1.6em; /* 1.5625em = 25px */
-    margin: 1.9em auto; /* 1.875rem = 30px */
+    font-size: 1.6em;
+    margin: 1.9em auto;
   }
 
   /* .security .otherSkills-subtitle {
     font-size: 1.3em;
     margin: 1.9em auto;
   } */
+
+  .otherSkills-skill {
+    font-size: 1.25em;
+    /* padding: 0.5em 0.7em; */
+    /* margin: 0.6em;  */
+  }
 
   .otherSkills-list {
     /*_ Solo para igualar a Skills   */
@@ -90,7 +96,7 @@
     justify-content: space-between;
     align-items: center;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-auto-rows: minmax(15.8em); /* 15.75rem = 252px */
+    grid-auto-rows: minmax(15.8em);
     grid-gap: 2px;
   }
 
