@@ -1,7 +1,3 @@
-.coverLetter {
-  padding-top: 6em;
-}
-
 /*: Desktop + iPads landscape (768px) */
 .letter-container {
   margin: 2.5em auto;
@@ -96,6 +92,9 @@
 
 /*: Smartphones */
 @media screen and (max-width: 500px) {
+  .coverLetter {
+    padding-top: 6em;
+  }
   .letter {
     min-height: 40rem;
   }
