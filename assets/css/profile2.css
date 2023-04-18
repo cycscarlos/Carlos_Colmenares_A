@@ -9,9 +9,6 @@
 }
 
 .profile-title {
-  /* font-size: 1.9em; */
-  /* margin: 1.25em 0 1.25em 0; */
-  /* font-size: 1.5em; */
   font-size: var(--step-2);
   margin: 1em 0 1.25em 0;
   color: var(--logo-color);
@@ -31,7 +28,8 @@
   letter-spacing: normal;
   margin: 1.3em 0;
   color: var(--text-color);
-  padding: 0 2rem;
+  /* padding: 0 2rem; */
+  padding: 0 1rem;
 }
 
 .profile-details a {
