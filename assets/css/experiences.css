@@ -15,6 +15,7 @@
 .experiences-body {
   background-color: var(--experience-color);
   color: var(--white-color);
+  border-radius: 20px;
 }
 
 .wave {

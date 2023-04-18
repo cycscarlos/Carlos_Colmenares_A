@@ -14,7 +14,7 @@ icon.onclick = function () {
   if (document.body.classList.contains("dark-theme")) {
     icon.src = "./img/sun.png";
     darktop.src = "./img/wave2.svg";
-    darkBottom.src = "./img/wave2.svg";
+    darkbottom.src = "./img/wave2.svg";
 
     topheader.classList.toggle("darkShadow");
 
