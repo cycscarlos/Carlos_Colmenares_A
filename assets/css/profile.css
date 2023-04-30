@@ -27,11 +27,55 @@
   line-height: 1.4;
   letter-spacing: normal;
   margin: 1.3em 0;
-  color: var(--text-color);
-  /* padding: 0 2rem; */
+  color: var(--text-color); 
   padding: 0 1rem;
 }
 
+.profile-details-sec {
+  font-size: 1em;
+  font-weight: 300;
+  line-height: 1.4;
+  letter-spacing: normal;
+  margin: 1.3em 0;
+  color: var(--text-color);
+  padding: 0 1rem;
+  transition: 5s;
+}
+
+.profile-details-sec a {
+  color: var(--logotype-color);
+}
+
+.profile-details,
+.profile-details-sec small {
+  letter-spacing: 0.5px;
+}
+
+.profile-details-sec {
+  /* position: relative;
+  left: -200%; */
+  display: none;
+}
+
+.profile-sec-btn {
+  display: inline-block;
+  background-color: transparent;
+  color: var(--logo-color);
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.5);
+  border: none;
+  font-size: 0.75em;
+  border-radius: 5px;
+  padding: 0.05em 1em 0.05em 0.5em;
+  margin: 0.5em 1em;
+  backdrop-filter: blur(5px);
+  opacity: 0.8;
+  text-align: center;
+  cursor: pointer;
+}
+
+.profile-sec-btn:hover {
+  filter: brightness(130%);
+}
 .profile-details a {
   color: var(--logotype-color);
 }
@@ -133,6 +177,27 @@
   display: none;
 }
 
+/* Animación para el parrafo secundario */
+/* .contenedor-animacion {
+  overflow: hidden;
+  width: 400px;
+}
+
+.animar {
+  position: relative;
+  left: -200%;
+  animation: mover 1s ease-in-out 0s;
+}
+
+@keyframes mover {
+  from {
+    left: -200%;
+  }
+  to {
+    left: 0;
+  }
+} */
+
 /*: Smartphones styles */
 @media screen and (min-width: 415px) {
   .profile-img-section {
@@ -165,7 +230,8 @@
     font-size: var(--step-2);
     margin: 1.25em 0;
   }
-  .profile-details {
+  .profile-details,
+  .profile-details-sec  {
     margin: 1.25em 0;
   }
   .btnBx {
@@ -199,7 +265,8 @@
     font-size: var(--step-2);
     margin: 0.6em 0;
   }
-  .profile-details {
+  .profile-details,
+  .profile-details-sec  {
     width: 100%;
     max-width: 40em;
     margin: 1.25em 0;
@@ -222,9 +289,7 @@
   .profile {
     justify-content: space-evenly;
   }
-  .profile-title {
-    /* font-size: 2.2em; */
-    /* font-size: 2em; */
+  .profile-title { 
     font-size: var(--step-2);
     /* margin: 0.6em 0; */
     margin: 0;
