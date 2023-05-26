@@ -5,7 +5,7 @@
 }
 
 .skills-title {
-  font-size: 1.6em; 
+  font-size: 1.6em;
   font-weight: bold;
   text-transform: uppercase;
   text-align: center;
@@ -22,6 +22,7 @@
 
 .skills-skill {
   font-size: 1.1em;
+  /* font-size: clamp(0.75rem, 0.341rem + 1.58vw, 1.1rem); */
   font-weight: 500;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
   border-radius: 42px;
