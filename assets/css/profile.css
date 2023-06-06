@@ -134,8 +134,8 @@
 .profile-btn-cv {
   background-color: var(--background-boton-color);
  
-  /* color: var(--white-color); */
-  color: var( --logotype-color);
+  color: var(--white-color);
+  /* color: var( --logotype-color); */
   /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25); */
   box-shadow: 0 4px 10px 4px rgba(0, 0, 0, 0.5);
   border: none;
