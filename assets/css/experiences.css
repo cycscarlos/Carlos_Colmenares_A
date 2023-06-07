@@ -96,7 +96,8 @@
 }
 .container-btn a {
   position: relative;
-  font-size: 1.5em;
+  /* font-size: 1.5em; */
+  font-size: 1em;
   letter-spacing: 0.1em;
   padding: 0.5em 1em;
   text-decoration: none;
@@ -161,7 +162,8 @@
 
 @media only screen and (max-width: 414px) {
   .container-btn a {
-    font-size: 1.2em;
+    /* font-size: 1.2em; */
+    font-size: 1em;
     padding: 0.5em 0.75em;
     box-shadow: 0 0 35px var(--clr);
   }
@@ -234,7 +236,7 @@
     z-index: 1;
   } */
 
-  .container-btn a {
+  .container-btn a {    
     font-size: 1.2em;
     padding: 0.5em 0.75em;
     box-shadow: 0 0 35px var(--clr);
@@ -312,6 +314,9 @@
     z-index: 1;
   }
   /*: Lightbox Buttom styles */
+  .container-btn a {
+    font-size: 1.3em;
+  }
   .container-btn a:hover {
     letter-spacing: 0.25em;
     background-color: var(--clr);

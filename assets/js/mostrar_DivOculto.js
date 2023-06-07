@@ -11,5 +11,5 @@ function mostrar_DivOculto(id) {
 /* hace que se cargue la función lo que predetermina que div estará oculto hasta llamar a la función nuevamente */
 
 window.onload = function () {
-  mostrar_DivOculto("profile-details-sec");
+  mostrar_DivOculto("coverLetter");
 };

@@ -57,7 +57,8 @@
   display: none;
 }
 
-.profile-sec-btn {
+/* Botón ...leer más */
+.profile-btn-leerMas {
   display: inline-block;
   background-color: transparent;
   color: var(--logo-color);
@@ -73,7 +74,7 @@
   cursor: pointer;
 }
 
-.profile-sec-btn:hover {
+.profile-btn-leerMas:hover {
   filter: brightness(130%);
 }
 .profile-details a {
@@ -93,9 +94,9 @@
   position: relative;
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
+  flex-direction: column;
   align-items: center;
-
   text-align: center;
   margin-top: 0.9em;
 }
@@ -127,28 +128,6 @@
 }
 
 .profile-btn:hover {
-  filter: brightness(130%);
-}
-
-.profile-btn-letter,
-.profile-btn-cv {
-  background-color: var(--background-boton-color);
- 
-  color: var(--white-color);
-  /* color: var( --logotype-color); */
-  /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25); */
-  box-shadow: 0 4px 10px 4px rgba(0, 0, 0, 0.5);
-  border: none;
-  font-size: 0.9em;
-  font-weight: bold;
-  padding: 0.5em 1em;
-  margin: 0 2em;
-  border-radius: 7px;
-  cursor: pointer;
-}
-
-.profile-btn-letter:hover,
-.profile-btn-cv:hover {
   filter: brightness(130%);
 }
 
@@ -204,7 +183,14 @@
 } */
 
 /*: Smartphones styles */
-@media screen and (min-width: 415px) {
+@media screen and (max-width: 413px) {
+  .btnBx {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+@media screen and (min-width: 414px) {
   .profile-img-section {
     position: relative;
     display: flex;
@@ -212,7 +198,7 @@
     align-items: center;
   }
   .profile-img {
-    width: 100%;
+    /* width: 100%; */
     max-width: 12em;
   }
   .profile-img-line {
@@ -223,6 +209,10 @@
     bottom: 0;
     transform: translateX(-50%);
   }
+  .btnBx {
+    flex-direction: column;
+    gap: 20px;
+  }
 }
 
 /*: iPad portrait styles */
@@ -231,7 +221,6 @@
     margin: 0 auto;
   }
   .profile-title {
-    /* font-size: 2.2em; */
     font-size: var(--step-2);
     margin: 1.25em 0;
   }
@@ -239,14 +228,13 @@
   .profile-details-sec {
     margin: 1.25em 0;
   }
-  .btnBx {
-    justify-content: space-around;
-  }
   .profile-btn {
     margin: 0.5em 2.5em;
   }
-  .profile-btn-letter {
-    margin: 0.5em 2em;
+
+  .btnBx {
+    flex-direction: row;
+    gap: 0;
   }
 }
 
@@ -254,7 +242,6 @@
 @media screen and (min-width: 1024px) {
   .profile {
     margin: 0 auto;
-    text-align: left;
     text-align: center;
     display: flex;
     justify-content: space-evenly;
@@ -262,19 +249,16 @@
   }
   .profile-info {
     margin: 0 0 0 4em;
-    /* margin: 1.25em 0 0 4em; */
   }
   .profile-title {
-    /* font-size: 2.5em; */
-    /* font-size: 2em; */
     font-size: var(--step-2);
     margin: 0.6em 0;
   }
   .profile-details,
   .profile-details-sec {
     width: 100%;
-    max-width: 40em;
-    margin: 1.25em 0;
+    min-width: 40em;
+    /* margin: 1.25em 0; */
     text-align: justify;
   }
 
@@ -284,9 +268,9 @@
   .profile-img-line {
     width: 100%;
   }
-  .btnBx {
-    display: inline;
-  }
+  /* .btnBx {
+    display: inline-flex;
+  } */
 }
 
 /*: Desktop styles */
@@ -303,9 +287,9 @@
     margin: 1.3em 0;
     text-align: justify;
   }
-  .btnBx {
+  /* .btnBx {
     margin: 0.5em 3.5em;
-  }
+  } */
 
   .profile-img {
     transform: scaleX(-1); /* se voltea la imagen */
