@@ -185,13 +185,13 @@
 } */
 
 /*: Smartphones styles */
-@media screen and (max-width: 413px) {
+/* @media screen and (max-width: 413px) {
   .btnBx {
     flex-direction: column;
     gap: 20px;
-    border: 1px solid green; 
+    border: 1px solid green;
   }
-}
+} */
 
 @media screen and (min-width: 414px) {
   .profile-img-section {
@@ -215,7 +215,7 @@
   .btnBx {
     flex-direction: column;
     gap: 20px;
-        border: 1px solid blue; 
+    border: 1px solid blue;
   }
 }
 
@@ -239,7 +239,7 @@
   .btnBx {
     flex-direction: row;
     gap: 0;
-        border: 1px solid violet; 
+    border: 1px solid black;
   }
 }
 
