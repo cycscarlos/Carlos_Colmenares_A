@@ -189,6 +189,7 @@
   .btnBx {
     flex-direction: column;
     gap: 20px;
+    border: 1px solid green; 
   }
 }
 
@@ -214,6 +215,7 @@
   .btnBx {
     flex-direction: column;
     gap: 20px;
+        border: 1px solid blue; 
   }
 }
 
@@ -237,6 +239,7 @@
   .btnBx {
     flex-direction: row;
     gap: 0;
+        border: 1px solid violet; 
   }
 }
 
