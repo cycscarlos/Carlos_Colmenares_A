@@ -96,7 +96,8 @@
   display: flex;
   justify-content: space-evenly;
   flex-direction: column;
-  gap:20px;
+  gap: 20px;
+  border: 1px solid red;
   align-items: center;
   text-align: center;
   margin-top: 0.9em;
