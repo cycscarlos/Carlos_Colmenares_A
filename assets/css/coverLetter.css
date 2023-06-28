@@ -1,6 +1,7 @@
 /*: Desktop + iPads landscape (768px) */
 .letter-container {
-  margin: 2.5em auto;
+  /* margin: 2.5em auto; */
+  margin: 0.5em auto;
   display: flex;
   justify-content: center;
   font-weight: 300;
@@ -92,12 +93,19 @@
 
 /*: Smartphones */
 @media screen and (max-width: 500px) {
-  .coverLetter {
+  /* .coverLetter {
     padding-top: 6em;
+  } */
+  .coverLetter {
+    padding-bottom: 1em;
   }
   .letter {
     min-height: 40rem;
   }
+  .letter:hover {
+    transform: perspective(2000px) rotate(0deg);
+  }
+
   .letter .imgBox img {
     width: 80%;
     position: absolute;

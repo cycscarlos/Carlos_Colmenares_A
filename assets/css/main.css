@@ -9,7 +9,7 @@
   --step--4: clamp(0.48rem, 0.47rem + 0.06vw, 0.51rem);
   --step--3: clamp(0.58rem, 0.55rem + 0.12vw, 0.64rem);
   --step--2: clamp(0.69rem, 0.65rem + 0.21vw, 0.8rem);
-  --step--1: clamp(0.83rem, 0.77rem + 0.33vw, 1rem); 
+  --step--1: clamp(0.83rem, 0.77rem + 0.33vw, 1rem);
   --step-0: clamp(1rem, 0.9rem + 0.49vw, 1.25rem);
   --step-1: clamp(1.2rem, 1.06rem + 0.71vw, 1.56rem);
   --step-2: clamp(1.44rem, 1.24rem + 1vw, 1.95rem);
@@ -115,23 +115,25 @@ img {
 
 /* Margenes mínimos en dispositivos móviles */
 .horizontal-padding {
-  padding-left: 1.56em; /* 1.5625em = 25px */
+  padding-left: 1.56em;
   padding-right: 1.56em;
 }
 .vertical-padding {
-  padding-top: 1.56em; /* 1.5625em = 25px */
+  padding-top: 1.56em;
   padding-bottom: 1.56em;
 }
 
 /* Margenes mínimos en dispositivos desktop */
 @media only screen and (min-width: 768px) {
   .horizontal-padding {
-    padding-left: 4.4em; /* 4.375em = 70px */
+    padding-left: 4.4em;
     padding-right: 4.4em;
   }
   .vertical-padding {
-    padding-top: 4.4em; /* 4.375em = 70px */
-    padding-bottom: 4.4em;
+    /* padding-top: 4.4em;
+    padding-bottom: 4.4em; */
+    padding-top: 3.4em;
+    padding-bottom: 1.4em;
   }
   .vertical-padding-v2 {
     padding-top: 0;
