@@ -201,9 +201,11 @@
   /* Reubicación del icono hamburguesa */
   .open-menu {
     position: absolute;
-    top: 1.8em;
-    right: 5em;
-    /* border: 1px solid var(--hamburguer-color); */
+    /* top: 1.8em;
+    right: 5em; */
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
   }
 
   .close-menu {

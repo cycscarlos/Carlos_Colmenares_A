@@ -83,8 +83,14 @@
 }
 
 .experience-description ul li small span {
-  color: var(--logotype-color);
+  /* color: var(--logotype-color); */
   font-style: normal;
+  /* News */
+  color: var(--white-color);
+  font-weight: 500;
+  box-shadow: 0.5px 0.5px 3.5px 0px rgba(0, 0, 0, 0.5);
+  padding: 0.2rem;
+  background-color: rgba(37, 83, 126, .25);
 }
 
 /*: Lightbox Buttom styles */
@@ -236,7 +242,7 @@
     z-index: 1;
   } */
 
-  .container-btn a {    
+  .container-btn a {
     font-size: 1.2em;
     padding: 0.5em 0.75em;
     box-shadow: 0 0 35px var(--clr);

@@ -129,15 +129,13 @@ img {
     padding-left: 4.4em;
     padding-right: 4.4em;
   }
-  .vertical-padding {
-    /* padding-top: 4.4em;
-    padding-bottom: 4.4em; */
+  .vertical-padding-profile {
     padding-top: 3.4em;
     padding-bottom: 1.4em;
   }
-  .vertical-padding-v2 {
-    padding-top: 0;
-    padding-bottom: 0;
+  .vertical-padding-skills {
+    padding-top: 4.4em;
+    padding-bottom: 4.4em;
   }
 }
 /*: Smartphone typography size style */

@@ -63,6 +63,19 @@
   display: none;
 }
 
+.profile-details a {
+  color: var(--logotype-color);
+}
+
+.profile-details span a:hover {
+  color: var(--main-color);
+  opacity: 0.5;
+}
+
+.profile-details small {
+  letter-spacing: 0.5px;
+}
+
 /* Botón ...leer más */
 .profile-btn-leerMas {
   display: inline-block;
@@ -82,18 +95,6 @@
 
 .profile-btn-leerMas:hover {
   filter: brightness(130%);
-}
-.profile-details a {
-  color: var(--logotype-color);
-}
-
-.profile-details span a:hover {
-  color: var(--main-color);
-  opacity: 0.5;
-}
-
-.profile-details small {
-  letter-spacing: 0.5px;
 }
 
 .btnBx {
@@ -259,7 +260,7 @@
   .profile-details-sec {
     width: 100%;
     min-width: 40em;
-    max-width: 50em;
+    max-width: 45em;
     /* margin: 1.25em 0; */
     text-align: justify;
   }

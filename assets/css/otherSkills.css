@@ -6,7 +6,8 @@
 
 .otherSkills-title {
   font-size: 1.6em;
-  margin: 0.625em auto;
+  /* margin: 0.625em auto; */
+  margin: 2rem auto;
   font-weight: bold;
   /* text-transform: uppercase; */
   text-align: center;
@@ -15,7 +16,8 @@
 
 .otherSkills-subtitle {
   font-size: 1.3em;
-  margin: 3.2em auto 2.5rem auto;
+  /* margin: 3.2em auto 2.5rem auto; */
+  margin: 2rem auto;
   font-weight: bold;
   text-align: center;
   color: var(--skill-color);
@@ -45,7 +47,8 @@
 @media only screen and (min-width: 768px) {
   .otherSkills-title {
     font-size: 2em;
-    margin: 1.6em auto;
+    /* margin: 1.6em auto; */
+    margin: 0 auto;
   }
   .otherSkills-subtitle {
     font-size: 1.25em;
