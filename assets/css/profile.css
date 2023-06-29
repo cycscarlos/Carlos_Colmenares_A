@@ -76,27 +76,6 @@
   letter-spacing: 0.5px;
 }
 
-/* Botón ...leer más */
-.profile-btn-leerMas {
-  display: inline-block;
-  background-color: transparent;
-  color: #b4b3b3;
-  box-shadow: -10px 20px 35px rgba(0, 0, 0, 0.15);
-  border: none;
-  font-size: 0.75em;
-  border-radius: 5px;
-  padding: 0.05em 1em 0.05em 0.5em;
-  margin: 0.5em 1em;
-  backdrop-filter: blur(5px);
-  opacity: 0.8;
-  text-align: center;
-  cursor: pointer;
-}
-
-.profile-btn-leerMas:hover {
-  filter: brightness(130%);
-}
-
 .btnBx {
   position: relative;
   width: 100%;
@@ -137,30 +116,26 @@
   filter: brightness(130%);
 }
 
-/* .profile-img-section {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 14%;
+.profile-btn-leerMas {
+  /* display: inline-block; */
+  background-color: transparent;
+  color: #b4b3b3;
+  box-shadow: -10px 20px 35px rgba(0, 0, 0, 0.15);
+  border: none;
+  font-size: 0.75em;
+  border-radius: 5px;
+  padding: 0.05em 1em 0.05em 0.5em;
+  margin: 0.5em 1em;
+  backdrop-filter: blur(5px);
+  opacity: 0.8;
+  text-align: center;
+  cursor: pointer;
+  transition: 3s;
 }
 
-.profile-img {
-  border-radius: 50%;
-  max-width: 7em;
-  outline: none;
-  box-shadow: 0 5px 10px 5px rgba(0, 0, 0, 0.5);
+.profile-btn-leerMas:hover {
+  filter: brightness(130%);
 }
-
-.profile-img-line {
-  background-color: var(--logotype-color);
-  height: 0.9em;
-  position: absolute;  
-  width: 50%;
-  left: 50%;
-  bottom: 0;
-  transform: translateX(-50%);
-} */
 
 .coverLetter {
   display: none;
@@ -186,6 +161,34 @@
     left: 0;
   }
 } */
+
+/* Código para colocar una imágen a la izquierda del texto en la sección Profile */
+
+/* .profile-img-section {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 14%;
+}
+
+.profile-img {
+  border-radius: 50%;
+  max-width: 7em;
+  outline: none;
+  box-shadow: 0 5px 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+.profile-img-line {
+  background-color: var(--logotype-color);
+  height: 0.9em;
+  position: absolute;  
+  width: 50%;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+} */
+/* Botón ...leer más */
 
 /*: Smartphones styles */
 @media (min-width: 0px) and (max-width: 413px) {

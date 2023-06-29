@@ -2,7 +2,7 @@
 // si quisiera que aparaciera solo se debe agregar la siguiente instrucción:
 // else {document.getElementById("coverLetter").style.display = "block";}
 
-/*
+/* 
 Este código crea una función que se ejecuta cada vez que se desplaza la página. 
 
 Primero, se define una variable llamada "ubicacionPrincipal" que almacena la posición actual de desplazamiento de la página, que se obtiene utilizando el método window.pageYOffset.

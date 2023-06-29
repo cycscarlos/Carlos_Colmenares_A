@@ -1,9 +1,7 @@
 /*
-Este código define una función llamada "mostrar_DivOculto" que se utiliza para mostrar u ocultar un elemento HTML con un ID específico. La función toma un parámetro "id" que se utiliza para identificar el elemento HTML.
+La función mostrar_DivOculto toma un parámetro id, que es el ID del elemento HTML que se va a mostrar u ocultar. La función utiliza la función getElementById para obtener una referencia al elemento y luego cambia el valor del estilo display del elemento para mostrar u ocultar el elemento.
 
-Dentro de la función, se utiliza el método getElementById() para obtener una referencia al elemento HTML con el ID especificado. Luego, se verifica si el elemento está oculto o no. Si está oculto (es decir, su propiedad de estilo display es "none"), se establece su propiedad de estilo display en "block" para mostrar el elemento. Si el elemento ya está visible (su propiedad de estilo display es "block"), se establece la propiedad de estilo display en "none" para ocultar el elemento.
-
-Además, se define una función anónima que se ejecuta cuando se carga la página, utilizando el evento "onload" del objeto window. Esta función llama a la función "mostrar_DivOculto" con el ID "coverLetter" como parámetro. Esto significa que el elemento HTML con el ID "coverLetter" estará oculto cuando se cargue la página.
+La última línea del código window.onload = function() { mostrar_DivOculto("coverLetter"); }; se ejecuta cuando la página se carga completamente y llama a la función mostrar_DivOculto para ocultar el elemento con un ID de "coverLetter" por defecto.
 */
 
 function mostrar_DivOculto(id) {
@@ -20,4 +18,5 @@ function mostrar_DivOculto(id) {
 
 window.onload = function () {
   mostrar_DivOculto("coverLetter");
+  mostrar_DivOculto("profile-details-sec");
 };
