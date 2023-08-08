@@ -76,13 +76,14 @@
   font-weight: normal;
 }
 
-.letter .letter-details p span {
-  font-size: 0.8em; /* 0.6875em = 11px */
+.letter .letter-details p span,
+.letter .letter-details p a {
+  color: var(--primary-color);
 }
 
-.letter .letter-details p a {
-  /* color: var(--color-linkedin); */
-  color: var(--primary-color);
+.letter .letter-details p span a:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 @keyframes moverImg {
