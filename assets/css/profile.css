@@ -46,6 +46,11 @@
   box-shadow: -10px 20px 35px rgba(0, 0, 0, 0.15);
   outline: none;
   border-radius: 5px;
+  opacity: 1;
+}
+
+.transition-class {
+  transition: opacity 0.5s ease;
 }
 
 .profile-details-sec a {
