@@ -55,7 +55,13 @@
 }
 
 /* Darkmode styles  */
-.moon {
+/* .moon {
+  width: 1.8em;
+  height: 1.9em;
+  margin-right: 2.5em;
+  align-self: center;
+} */
+.themeIcon {
   width: 1.8em;
   height: 1.9em;
   margin-right: 2.5em;

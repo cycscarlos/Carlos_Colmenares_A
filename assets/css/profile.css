@@ -18,7 +18,7 @@
 
   background-image: url(".././img/logoBG.jpeg");
   background-size: cover;
-  background-position: center; 
+  background-position: center;
 }
 
 .profile-info {
@@ -28,13 +28,14 @@
 .profile-title {
   font-size: var(--step-2);
   margin: 1em 0 1.25em 0;
-  /* color: var(--logo-color); */
+  /* color: var(--logotype-color); */
   font-family: var(--font-profile);
   font-weight: bold;
   text-align: left;
+  z-index: 100;
 }
 
-.profile-title .name {
+.profile-title {
   padding-top: 0.5em;
 }
 
@@ -237,9 +238,9 @@
   .profile {
     background-position: right;
   }
-  .overlay {
+  /* .overlay {
     background-color: rgba(0, 0, 0, 0.7);
-  }
+  } */
 }
 
 @media screen and (min-width: 414px) {
