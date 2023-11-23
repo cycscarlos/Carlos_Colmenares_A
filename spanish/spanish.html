@@ -137,72 +137,6 @@
             Hola!, Soy
             <div class="name">Carlos Colmenares A.</div>
           </h1>
-          <!-- <p class="profile-details">
-            He sido contratado por más de cuarenta (40) corporaciones, tanto
-            nacionales como internacionales, como consultor y/o especialista
-            para el diseño e implementación de complejos proyectos en las áreas
-            de ingeniería de software, tanto de tecnologías Mainframe de IBM
-            como de sistemas de telecomunicaciones y seguridad electrónica.
-            Algunas de estas empresas, son tan prestigiosas como el
-            <small
-              >Registro Nacional de Costa Rica (San José, Costa Rica), Banco
-              Invercredito (Bogotá, Colombia), y en Venezuela: PDVSA, Cargill,
-              CANTV, CVG, Metro de Caracas, así como trece (13) bancos
-              nacionales, etc.</small
-            ><br /><br />
-            Trabajé durante más de 25 años como programador de sistemas y
-            especialista en tecnología de mainframes IBM. Durante ese período,
-            también me desempeñé como director técnico de software de sistemas
-            en Computer Associates, Inc.
-            <small
-              >(una importante empresa norteamericana con presencia global
-              dedicada al desarrollo de software para tecnologías de mainframe
-              IBM)</small
-            >
-            a través de su filial en Venezuela. Después de que esa fase
-            terminara, me especialicé en telecomunicaciones por microondas y
-            sistemas de seguridad electrónica, un campo en el que he trabajado
-            durante más de 20 años, desarrollando proyectos esenciales y de gran
-            envergadura. <br /><br />A lo largo de mis últimos 20, he
-            desarrollado una exitosa carrera como ingeniero de proyectos,
-            diseñando e instalando sistemas de telecomunicaciones por microondas
-            y sistemas de seguridad de seguridad electrónica tanto pública como
-            privada.
-            <span class="profile-btn-leerMas">
-              <a
-                style="cursor: pointer"
-                onClick="mostrar_DivOculto('profile-details-sec')"
-                title=""
-                >...Leer más</a
-              ></span
-            >
-          </p>
-
-          <p
-            id="profile-details-sec"
-            class="profile-details-sec transition-class"
-          >
-            Finalmente, y como complemento a mi vocación como desarrollador de
-            software, en mi tiempo libre desarrollo sitios web y aplicaciones
-            para ordenadores de sobremesa, servidores y smartphones. Esta pasión
-            me obliga a estar al día de las nuevas tecnologías y tendencias
-            dentro del ecosistema de desarrollo de software como
-            <small
-              >Python, Javascript, HTML, CSS, NodeJS, MySQL, MongoDB, APIs,
-              Inteligencia Artificial, etc.</small
-            >
-            <br /><br />
-            Mis progresos como desarrollador web se pueden ver en el siguiente
-            enlace
-            <span class="profile-btn-leerMas">
-              <a
-                href="https://cycscarlos.github.io/my-portfolio"
-                target="_blank"
-              >
-                Portafolio Desarrollador Software</a
-              >
-            </span>
-          </p> -->
           <p class="profile-details">
             Ingeniero Electrónico<br />
             <span class="certified"
@@ -241,14 +175,6 @@
             </span>
           </p>
           <div class="btnBx">
-            <!-- <button
-              type="button"
-              class="profile-btn"
-              onclick="window.open('./../assets/pdf/CV_Carlos-Colmenares-A.pdf');"
-            >
-              Descargar CV
-              <span>(inglés)</span>
-            </button> -->
             <a
               style="cursor: pointer"
               onClick="window.open('./assets/pdf/CV_Carlos-Colmenares-A.pdf');"
@@ -266,16 +192,6 @@
               href="#coverLetter"
               >Carta de Presentación</a
             >
-
-            <!-- <span>
-              <a
-                href="https://cv-clasico.netlify.app"
-                target="_blank"
-                class="profile-btn"
-              >
-                CV Standard<span> (inglés)</span></a
-              ></span
-            > -->
           </div>
         </div>
         <!-- <div class="profile-img-section">
@@ -801,7 +717,7 @@
     </section>
 
     <!-- Skills -->
-    <div class="horizontal-padding vertical-padding-skills">
+    <!-- <div class="horizontal-padding vertical-padding-skills">
       <section class="skills" id="skills">
         <h2 class="skills-title">CONOCIMIENTOS Web</h2>
         <ul class="skills-list">
@@ -820,11 +736,11 @@
           <li class="skills-skill">Progressive Web App</li>
         </ul>
       </section>
-    </div>
+    </div> -->
 
     <!-- Others Skills -->
 
-    <section class="otherSkills" id="otherSkills">
+    <!-- <section class="otherSkills" id="otherSkills">
       <h2 class="otherSkills-title">Otros CONOCIMIENTOS</h2>
 
       <div class="otherSkillsGrid-container">
@@ -870,6 +786,14 @@
           </ul>
         </div>
       </div>
+    </section> -->
+
+    <section
+      class="sphere__container horizontal-padding vertical-padding-skills"
+      id="sphere__container"
+    >
+      <div class="content1" id="content1"><h2>Conocimientos Web</h2></div>
+      <div class="content2" id="content2"><h2>Otros Conocimientos</h2></div>
     </section>
 
     <!-- Contact -->
@@ -880,15 +804,6 @@
           <div>
             <h2 class="contact-title">Información de Contacto</h2>
             <ul class="info">
-              <!-- <li>
-                <span
-                  ><img src="./../assets/img/location.png" alt="location"
-                /></span>
-                <span>
-                  Av. Veracruz, calle Auyantepui, Edif. PWC, Piso 7, Ofic. 7-A,
-                  Urb. Las Mercedes, Chuao, Caracas, Venezuela
-                </span>
-              </li> -->
               <li>
                 <span><img src="./../assets/img/mail.png" alt="email" /></span>
                 <span> ccolmenaresa@gmail.com </span>
@@ -999,7 +914,10 @@
 
     <section>
       <div class="copyrightTexto">
-        <p>Copyright &copy; Carlos Colmenares A. | Derechos Reservados</p>
+        <p>
+          Copyright &copy; Elaborado por Carlos Colmenares A. | Derechos
+          Reservados
+        </p>
       </div>
     </section>
 
@@ -1012,6 +930,8 @@
     <script src="./../assets/js/lightbox.js"></script>
     <script src="./../assets/js/scrollreveal.min.js"></script>
     <script src="./../assets/js/scrollReveal.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/TagCloud@2.2.0/dist/TagCloud.min.js"></script>
+    <script src="./../assets/js/script_tagCloud.js"></script>
 
     <!--: PWA des-Activado! -->
     <!-- <script src="../js/pwa.js"></script>

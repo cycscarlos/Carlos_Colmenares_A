@@ -1,54 +1,47 @@
-/*: Smartphone styles */
-.skills {
-  max-width: 61.25rem; /* 61.25rem = 980px */
+/* Animated Text Sphere  */
+
+.sphere__container {
+  position: relative;
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
   margin: 0 auto;
+  max-width: var(--max-width); 
+ 
 }
 
-.skills-title {
-  font-size: 1.6em;
+.sphere__container .content1 h2,
+.sphere__container .content2 h2 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-size: var(--step-1);
+  color: var(--primary-color);
   font-weight: bold;
   text-transform: uppercase;
-  text-align: center;
-  color: var(--primary-color);
 }
 
-.skills-list {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+.sphere__container .tagcloud {
+  position: relative;
+  max-width: var(--max-width);
+  font-size: var(--step-0);
+
+  /* font-weight: 650; */
+  /* margin-left: 30%; */
+  /* margin-top: 5%; */
+}
+.sphere__container .tagcloud--item:hover {
+  color: #36454f;
 }
 
-.skills-skill {
-  font-size: 1.1em;
-  /* font-size: clamp(0.75rem, 0.341rem + 1.58vw, 1.1rem); */
-  font-weight: 500;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
-  border-radius: 42px;
-  padding: 0.5em 0.7em;
-  margin: 0.6em;
-}
+/*: Smartphone styles */
 
-/*: iPads portrait styles */
-@media only screen and (min-width: 768px) {
-  .skills-title {
-    font-size: 2em;
-  }
-  .skills-skill {
-    font-size: 1.25em;
-    margin: 1.3em;
-  }
-}
-
-/*: Desktop & iPads landscape styles */
-@media only screen and (min-width: 1024px) {
-  .skills-title {
-    font-size: 2em;
-  }
-
-  .skills-skill {
-    font-size: 1.25em;
-    margin: 1.3em;
+@media (max-width: 500px) {
+  .sphere__container {
+    flex-direction: column;
   }
 }
