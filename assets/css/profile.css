@@ -1,4 +1,11 @@
-/*: Smartphones styles */
+.overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+}
 .profile {
   text-align: justify;
   caret-color: transparent;
@@ -11,7 +18,7 @@
 
   background-image: url(".././img/logoBG.jpeg");
   background-size: cover;
-  background-position: center;
+  background-position: center; 
 }
 
 .profile-info {
@@ -105,26 +112,29 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  flex-direction: column;
+  /* flex-direction: column; */
   margin-top: 0.9em;
+  background-color: transparent;
 }
 
-.btnBx button span {
+/* .btnBx button span {
   font-size: 0.8em;
   font-weight: none;
-}
+} */
 
-.btnBx a {
+/* .btnBx a {
   min-width: 100px;
-}
-.btnBx a span {
+} */
+/* .btnBx a span {
   font-size: 0.8em;
   font-weight: none;
-}
+} */
 
 .profile-btn {
+  /* background-color: var(--background-boton-color);
+  color: var(--white-color); */
   background-color: var(--background-boton-color);
-  color: var(--white-color);
+  color: var(--boton-contact-color);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
   font-size: 0.9em;
   font-weight: bold;
@@ -220,12 +230,15 @@
   }
 } */
 @media (min-width: 0px) and (max-width: 500px) {
-  .btnBx {
+  /* .btnBx {
     flex-direction: column;
     gap: 20px;
-  }
+  } */
   .profile {
     background-position: right;
+  }
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.7);
   }
 }
 
@@ -247,10 +260,10 @@
     bottom: 0;
     transform: translateX(-50%);
   } */
-  .btnBx {
+  /* .btnBx {
     flex-direction: column;
     gap: 20px;
-  }
+  } */
   .profile-title {
     margin: 2rem 0 0 1.2rem;
   }
@@ -272,10 +285,10 @@
   .profile-btn {
     margin: 0.5em 2.5em;
   }
-  .btnBx {
+  /* .btnBx {
     flex-direction: row;
     gap: 0;
-  }
+  } */
 }
 /*: iPad landscape styles */
 @media screen and (min-width: 1024px) {

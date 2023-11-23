@@ -227,7 +227,7 @@ section[id="contact"] {
   outline: none;
   background: transparent;
   border-bottom: 1px solid rgba(15, 57, 87, 0.25);
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 
 .contact-container .contactForm .formBox .inputBox textarea {

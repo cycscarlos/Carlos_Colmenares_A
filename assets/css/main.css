@@ -17,7 +17,7 @@
   --step-4: clamp(2.07rem, 1.69rem + 1.91vw, 3.05rem);
   --step-5: clamp(2.49rem, 1.97rem + 2.59vw, 3.82rem);
 
-  --max-width: 1200px;
+  --max-width: 1200px; 
 
   --font-body: "Open Sans Condensed", sans-serif;
   --font-logo: "Times New Roman", sans-serif;
