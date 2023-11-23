@@ -2,6 +2,16 @@
 .profile {
   text-align: justify;
   caret-color: transparent;
+  color: #fff;
+
+  position: relative;
+  width: 100%;
+  /* height: 100vh; */
+  max-height: max-content;
+
+  background-image: url(".././img/logoBG.jpeg");
+  background-size: cover;
+  background-position: center;
 }
 
 .profile-info {
@@ -11,7 +21,7 @@
 .profile-title {
   font-size: var(--step-2);
   margin: 1em 0 1.25em 0;
-  color: var(--logo-color);
+  /* color: var(--logo-color); */
   font-family: var(--font-profile);
   font-weight: bold;
   text-align: left;
@@ -27,7 +37,8 @@
   line-height: 1.4;
   letter-spacing: normal;
   margin: 1em 0;
-  color: var(--text-color);
+  /* color: var(--text-color); */
+  color: #fff;
   padding: 0.5rem 1rem;
   box-shadow: -10px 20px 35px rgba(0, 0, 0, 0.15);
   outline: none;
@@ -202,10 +213,19 @@
 /* Botón ...leer más */
 
 /*: Smartphones styles */
-@media (min-width: 0px) and (max-width: 413px) {
+/* @media (min-width: 0px) and (max-width: 413px) {
   .btnBx {
     flex-direction: column;
     gap: 20px;
+  }
+} */
+@media (min-width: 0px) and (max-width: 500px) {
+  .btnBx {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .profile {
+    background-position: right;
   }
 }
 
@@ -230,6 +250,9 @@
   .btnBx {
     flex-direction: column;
     gap: 20px;
+  }
+  .profile-title {
+    margin: 2rem 0 0 1.2rem;
   }
 }
 
