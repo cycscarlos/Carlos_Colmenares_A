@@ -12,6 +12,7 @@
 .pwaModal p {
   font-size: 0.83em;
   margin: 0;
+  margin-left:20px;
   padding: 0;
   color: var(--text-color);
 }

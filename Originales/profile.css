@@ -22,7 +22,7 @@
 }
 
 .profile-details {
-  font-size: var(--step--1);
+  font-size: 1em;
   font-weight: 300;
   line-height: 1.4;
   letter-spacing: normal;
@@ -81,12 +81,6 @@
   letter-spacing: 0.5px;
 }
 
-.profile-details span.certified {
-  font-size: var(--step--2);
-  font-family: open sans condensed;
-  font-weight: 100;
-}
-
 .btnBx {
   position: relative;
   width: 100%;
@@ -133,7 +127,7 @@
   color: #b4b3b3;
   box-shadow: -10px 20px 35px rgba(0, 0, 0, 0.15);
   border: none;
-  font-size: var(--step--1);
+  font-size: 0.75em;
   border-radius: 5px;
   padding: 0.05em 1em 0.05em 0.5em;
   margin: 0.5em 1em;
