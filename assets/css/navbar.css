@@ -271,6 +271,7 @@
   body {
     overflow-x: hidden;
   }
+  /* Dark Mode */
   .themeIcon {
     margin-right: 10em;
     width: 1.4em;
