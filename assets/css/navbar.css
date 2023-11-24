@@ -65,7 +65,7 @@
 .themeIcon {
   width: 1.8em;
   height: 1.9em;
-  margin-right: 2.5em;
+  /* margin-right: 2.5em; */
   align-self: center;
 }
 
@@ -271,14 +271,9 @@
   body {
     overflow-x: hidden;
   }
-  .themeIcon {
-    /* position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-  } */
+  /* .themeIcon {
     margin-right: 10em;
     width: 1.2em;
     height: 1.3em;
-  }
+  } */
 }
