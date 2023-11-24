@@ -53,6 +53,7 @@
   font-style: italic;
   text-align: center;
 }
+/* Dark mode  styles */
 
 /* Darkmode styles  */
 /* .moon {
@@ -267,17 +268,17 @@
   .logo span {
     font-size: 0.6em;
   }
-  .topnav {
-    position: relative;
-    width: 100%;
-    max-width: none;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 2em;
-  }
   body {
     overflow-x: hidden;
+  }
+  .themeIcon {
+    /* position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  } */
+    margin-right: 10em;
+    width: 1.2em;
+    height: 1.3em;
   }
 }
