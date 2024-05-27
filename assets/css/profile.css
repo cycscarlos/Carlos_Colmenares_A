@@ -1,22 +1,21 @@
-.overlay {
+.overlay-fondo-oscuro {
   width: 100%;
   height: 100%;
   position: absolute;
   top: 0;
   left: 0;
-  background-color: transparent;
+  color: white;
+  /* background-color: transparent; */
+  background-color: rgba(0, 0, 0, 0.5);
 }
 .profile {
   text-align: justify;
   caret-color: transparent;
   color: #fff;
-
   position: relative;
   width: 100%;
-  /* height: 100vh; */
   max-height: max-content;
-
-  background-image: url(".././img/logoBG.jpeg");
+  background-image: url(".././img/mainFoto.png");
   background-size: cover;
   background-position: center;
 }
@@ -25,19 +24,18 @@
   margin-bottom: 1.6em;
 }
 
-.profile-title {
+/* .profile-title {
   font-size: var(--step-2);
   margin: 1em 0 1.25em 0;
   font-family: var(--font-profile);
   font-weight: bold;
   text-align: left;
-  z-index: 100;
 }
 
 .profile-title {
   padding-top: 0.5em;
-}
-.profile-title span {
+} */
+.profile-details h1 span {
   font-size: var(--step-0);
 }
 
@@ -49,6 +47,7 @@
   margin: 1em 0;
   /* color: var(--text-color); */
   color: #fff;
+
   padding: 0.5rem 1rem;
   box-shadow: -10px 20px 35px rgba(0, 0, 0, 0.15);
   outline: none;
@@ -134,8 +133,6 @@
 } */
 
 .profile-btn {
-  /* background-color: var(--background-boton-color);
-  color: var(--white-color); */
   background-color: var(--background-boton-color);
   color: var(--boton-contact-color);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);

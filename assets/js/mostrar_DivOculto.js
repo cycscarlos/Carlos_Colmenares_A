@@ -6,11 +6,11 @@ La última línea del código window.onload = function() { mostrar_DivOculto("co
 
 function mostrar_DivOculto(id) {
   if (document.getElementById) {
-    // se obtiene el id y se define la variable "el" igual a nuestro div
-    var el = document.getElementById(id);
+    // se obtiene el id y se define la variable "element" igual a nuestro div
+    var element = document.getElementById(id);
 
     // damos un atributo display:none que oculta el div
-    el.style.display = el.style.display == "none" ? "block" : "none";
+    element.style.display = element.style.display == "none" ? "block" : "none";
   }
 }
 
