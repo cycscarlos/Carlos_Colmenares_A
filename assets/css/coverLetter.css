@@ -6,6 +6,7 @@
   justify-content: center;
   font-weight: 300;
   width: 100%;
+  caret-color: transparent; /* esconde el color del cursor */
 }
 
 .letter {
@@ -76,14 +77,48 @@
   font-weight: normal;
 }
 
-.letter .letter-details p span,
+.letter .letter-details p span {
+  background-color: var(--text-color-small);
+  color: var(--white-color);
+}
 .letter .letter-details p a {
-  color: var(--primary-color);
+  color: var(--boton-contact-color);
+}
+
+.letter .letter-details p a.xxx {
+  background-color: var(--background-boton-color);
+  border-radius: 5px;
+  padding: 0.25em 0.8em;
 }
 
 .letter .letter-details p span a:hover {
   text-decoration: underline;
   cursor: pointer;
+  filter: brightness(130%);
+  opacity: 0.5;
+  color: var(--white-color);
+}
+
+.letter .letter-details p a.btn-coverLetter {
+  display: inline-block;
+  background-color: var(--background-boton-color);
+  color: var(--boton-contact-color);
+  box-shadow: -10px 20px 35px rgba(0, 0, 0, 0.15);
+  border: none;
+  font-size: 1em;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 0.25em 0.8em;
+  margin: 0.5em 1em;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.letter .letter-details p a.btn-coverLetter:hover {
+  filter: brightness(130%);
+  opacity: 0.5;
+  color: var(--white-color);
 }
 
 @keyframes moverImg {

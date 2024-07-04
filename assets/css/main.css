@@ -97,10 +97,12 @@ img {
 /* Website Dark Theme colors */
 .dark-theme {
   --theme-color: #262626;
+  
   --primary-color: white;
   --secondary-color: #fff;
   --text-color: white;
   --coverLetter-color: #2a2a2a;
+  --coverLetter-bg-color: #262626;
   --experience-color: #2e2d2d;
   --logo-color: white;
   --boton-color: #124f88;
