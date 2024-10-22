@@ -47,11 +47,12 @@
   margin: 1em 0;
   color: #fff;
   /* padding: 0.5rem 1rem; */
-  padding: 1.5rem 1.5rem;
+  padding: 4rem 1.5rem;
   box-shadow: -10px 20px 35px rgba(0, 0, 0, 0.15);
   outline: none;
-  border-radius: 5px; 
+  border-radius: 5px;
   background-color: var(--experience-color);
+  max-height: min-content;
 }
 
 .profile-details.spanish {
@@ -61,13 +62,14 @@
   letter-spacing: normal;
   margin: 1em 0;
   color: #fff;
-  padding: 0 1rem;
+  /* padding: 0 1rem; */
+  padding: 4rem 1.5rem;
   box-shadow: -10px 20px 35px rgba(0, 0, 0, 0.15);
   outline: none;
   border-radius: 5px;
 }
 
-.profile-details-sec {
+/* .profile-details-sec {
   font-size: 1em;
   font-weight: 300;
   line-height: 1.4;
@@ -80,7 +82,7 @@
   outline: none;
   border-radius: 5px;
   opacity: 1;
-}
+} */
 
 .transition-class {
   transition: opacity 0.5s ease;
