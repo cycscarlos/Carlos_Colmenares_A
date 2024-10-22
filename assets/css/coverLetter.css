@@ -77,10 +77,11 @@
   font-weight: normal;
 }
 
-.letter .letter-details p span {
+/* .letter .letter-details p span {
   background-color: var(--text-color-small);
   color: var(--white-color);
-}
+} */
+
 .letter .letter-details p a {
   color: var(--boton-contact-color);
 }

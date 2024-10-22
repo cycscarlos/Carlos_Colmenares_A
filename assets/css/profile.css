@@ -1,29 +1,28 @@
-.overlay-fondo-oscuro {
+/* .overlay-fondo-oscuro {
   width: 100%;
   height: 100%;
   position: absolute;
   top: 0;
   left: 0;
   color: white;
-  /* background-color: transparent; */
+  background-color: transparent;
   background-color: rgba(0, 0, 0, 0.5);
-}
+} */
 .profile {
   text-align: justify;
-
   caret-color: transparent;
   color: #fff;
   position: relative;
   width: 100%;
   max-height: max-content;
-  background-image: url(".././img/mainFoto.png");
+  /* background-image: url(".././img/mainFoto.png");
   background-size: cover;
-  background-position: center;
+  background-position: center; */
 }
 
-.profile-info {
+/* .profile-info {
   margin-bottom: 1.6em;
-}
+} */
 
 /* .profile-title {
   font-size: var(--step-2);
@@ -47,10 +46,13 @@
   letter-spacing: normal;
   margin: 1em 0;
   color: #fff;
-  padding: 0.5rem 1rem;
+  /* padding: 0.5rem 1rem; */
+  padding: 1.5rem 1.5rem;
   box-shadow: -10px 20px 35px rgba(0, 0, 0, 0.15);
   outline: none;
   border-radius: 5px;
+  --experience-color: #2e2d2d;
+  background-color: var(--experience-color);
 }
 
 .profile-details.spanish {
@@ -117,13 +119,15 @@
   font-size: var(--step--2);
   font-family: open sans condensed;
   font-weight: 100;
-  background-color: var(--text-color-small);
+  font-style: oblique;
+  /* background-color: var(--text-color-small); */
   color: white;
 }
 
 .profile-details small.empresas {
-  background-color: var(--text-color-small);
+  /* background-color: var(--text-color-small); */
   color: white;
+  font-style: oblique;
 }
 
 .btnBx {
@@ -172,7 +176,7 @@
 
 .profile-btn-leerMas {
   display: inline-block;
-  background-color: var(--background-boton-color);
+  background-color: var(--background-profile-boton-color);
   color: var(--boton-contact-color);
   box-shadow: -10px 20px 35px rgba(0, 0, 0, 0.15);
   border: none;

@@ -17,7 +17,7 @@
   --step-4: clamp(2.07rem, 1.69rem + 1.91vw, 3.05rem);
   --step-5: clamp(2.49rem, 1.97rem + 2.59vw, 3.82rem);
 
-  --max-width: 1200px; 
+  --max-width: 1200px;
 
   --font-body: "Open Sans Condensed", sans-serif;
   --font-logo: "Times New Roman", sans-serif;
@@ -56,6 +56,7 @@
   --contact-text-color: #333;
   --logo-color: #124f88;
   --background-boton-color: #124f88;
+  --background-profile-boton-color: #124f88;
   --background-contact-color: #1c3643;
   --boton-contact-color: #08f1af;
   --background-letter-color: #fff;
@@ -97,7 +98,7 @@ img {
 /* Website Dark Theme colors */
 .dark-theme {
   --theme-color: #262626;
-  
+
   --primary-color: white;
   --secondary-color: #fff;
   --text-color: white;
@@ -108,6 +109,7 @@ img {
   --boton-color: #124f88;
   --background-boton-color: #2e2d2d;
   --background-contact-color: #2e2d2d;
+  --background-profile-boton-color: #333;
   --skill-color: #f7c331;
   --contact-color: white;
   --background-letter-color: bisque;
