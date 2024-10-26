@@ -1,13 +1,3 @@
-/* .overlay-fondo-oscuro {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  color: white;
-  background-color: transparent;
-  background-color: rgba(0, 0, 0, 0.5);
-} */
 .profile {
   text-align: justify;
   caret-color: transparent;
@@ -15,26 +5,8 @@
   position: relative;
   width: 100%;
   max-height: max-content;
-  /* background-image: url(".././img/mainFoto.png");
-  background-size: cover;
-  background-position: center; */
 }
 
-/* .profile-info {
-  margin-bottom: 1.6em;
-} */
-
-/* .profile-title {
-  font-size: var(--step-2);
-  margin: 1em 0 1.25em 0;
-  font-family: var(--font-profile);
-  font-weight: bold;
-  text-align: left;
-}
-
-.profile-title {
-  padding-top: 0.5em;
-} */
 .profile-details h1 span {
   font-size: var(--step-0);
 }
@@ -45,8 +17,8 @@
   line-height: 1.4;
   letter-spacing: normal;
   margin: 1em 0;
-  color: #fff;
-  padding: 2rem 1.5rem;
+  color: #fff; 
+  padding: 0.5rem 0.75rem;
   box-shadow: -10px 20px 35px rgba(0, 0, 0, 0.15);
   outline: none;
   border-radius: 5px;
@@ -69,21 +41,6 @@
   max-height: min-content;
 }
 
-/* .profile-details-sec {
-  font-size: 1em;
-  font-weight: 300;
-  line-height: 1.4;
-  letter-spacing: normal;
-  margin: 1em 0;
-  color: var(--text-color);
-  padding: 0.5rem 1rem;
-  transition: 0.5s;
-  box-shadow: -10px 20px 35px rgba(0, 0, 0, 0.15);
-  outline: none;
-  border-radius: 5px;
-  opacity: 1;
-} */
-
 .transition-class {
   transition: opacity 0.5s ease;
 }
@@ -98,8 +55,6 @@
 }
 
 .profile-details-sec {
-  /* position: relative;
-  left: -200%; para la animación */
   display: none;
 }
 
@@ -120,13 +75,10 @@
   font-size: var(--step--2);
   font-family: open sans condensed;
   font-weight: 100;
-  font-style: oblique;
-  /* background-color: var(--text-color-small); */
   color: white;
 }
 
 .profile-details small.empresas {
-  /* background-color: var(--text-color-small); */
   color: white;
   font-style: oblique;
 }
@@ -142,19 +94,6 @@
   background-color: transparent;
   transition: 0.5s;
 }
-
-/* .btnBx button span {
-  font-size: 0.8em;
-  font-weight: none;
-} */
-
-/* .btnBx a {
-  min-width: 100px;
-} */
-/* .btnBx a span {
-  font-size: 0.8em;
-  font-weight: none;
-} */
 
 .profile-btn {
   background-color: var(--background-boton-color);
@@ -182,8 +121,7 @@
   box-shadow: -10px 20px 35px rgba(0, 0, 0, 0.15);
   border: none;
   font-size: var(--step--1);
-  border-radius: 5px;
-  /* padding: 0.05em 1em 0.05em 0.5em; */
+  border-radius: 5px; 
   padding: 0.25em 0.8em;
   margin: 0.5em 1em;
   backdrop-filter: blur(5px);
@@ -202,67 +140,9 @@
   display: none;
 }
 
-/* Animación para el parrafo secundario */
-/* .contenedor-animacion {
-  overflow: hidden;
-  width: 400px;
-}
-
-.animar {
-  position: relative;
-  left: -200%;
-  animation: mover 1s ease-in-out 0s;
-}
-
-@keyframes mover {
-  from {
-    left: -200%;
-  }
-  to {
-    left: 0;
-  }
-} */
-
-/* Código para colocar una imágen a la izquierda del texto en la sección Profile */
-
-/* .profile-img-section {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 14%;
-}
-
-.profile-img {
-  border-radius: 50%;
-  max-width: 7em;
-  outline: none;
-  box-shadow: 0 5px 10px 5px rgba(0, 0, 0, 0.5);
-}
-
-.profile-img-line {
-  background-color: var(--logotype-color);
-  height: 0.9em;
-  position: absolute;  
-  width: 50%;
-  left: 50%;
-  bottom: 0;
-  transform: translateX(-50%);
-} */
-/* Botón ...leer más */
-
 /*: Smartphones styles */
-/* @media (min-width: 0px) and (max-width: 413px) {
-  .btnBx {
-    flex-direction: column;
-    gap: 20px;
-  }
-} */
+
 @media (min-width: 0px) and (max-width: 500px) {
-  /* .btnBx {
-    flex-direction: column;
-    gap: 20px;
-  } */
   .profile {
     background-position: right;
   }
@@ -272,33 +152,9 @@
     text-align: justify;
     padding: 4rem 1.5rem;
   }
-  /* .overlay {
-    background-color: rgba(0, 0, 0, 0.7);
-  } */
 }
 
 @media screen and (min-width: 414px) {
-  /* .profile-img-section {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .profile-img {   
-    max-width: 12em;
-  }
-  .profile-img-line {
-    background-color: var(--logotype-color);
-    height: 0.9em;
-    width: 210px;
-    left: 50%;
-    bottom: 0;
-    transform: translateX(-50%);
-  } */
-  /* .btnBx {
-    flex-direction: column;
-    gap: 20px;
-  } */
   .profile-title {
     margin: 2rem 0 0 1.2rem;
   }
@@ -320,10 +176,6 @@
   .profile-btn {
     margin: 0.5em 2.5em;
   }
-  /* .btnBx {
-    flex-direction: row;
-    gap: 0;
-  } */
 }
 /*: iPad landscape styles */
 @media screen and (min-width: 1024px) {
@@ -348,12 +200,6 @@
     max-width: 45em;
     text-align: justify;
   }
-  /* .profile-img {
-    transform: scaleX(-1);
-  }
-  .profile-img-line {
-    width: 100%;
-  } */
 }
 
 /*: Desktop styles */
@@ -363,14 +209,10 @@
   }
   .profile-title {
     font-size: var(--step-1);
-    /* margin: 0.6em 0; */
+
     margin: 0;
   }
   .profile-details {
     margin: 1.3em 0;
-    /* text-align: justify; */
   }
-  /* .profile-img {
-    transform: scaleX(-1); se voltea de la imagen
-  } */
 }

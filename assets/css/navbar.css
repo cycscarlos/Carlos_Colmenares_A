@@ -1,4 +1,11 @@
 /*: Desktop styles  */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  /* outline: 2px solid lime; */
+  /* background: rgba(255, 0, 0, 0.1); */
+}
 .topheader {
   position: fixed;
   top: 0;
@@ -7,6 +14,7 @@
   z-index: 100;
   background-color: var(--theme-color);
   box-shadow: 0 4px 5px var(--navbar-shadow-color);
+
 }
 
 .darkShadow {
@@ -16,16 +24,17 @@
 .topnav {
   /* Reducir el tamaño del viewport y centrar los elementos dentro del bloque */
   position: relative;
-  max-width: 61.3em;
+  /* max-width: 61.3em; */
   margin: 0 auto;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   /* padding: 0 2em; */
-  padding: 2em;
+  /* padding: 2em; */
+    overflow: hidden;
 }
 
-/*_ Logo */
+/* Logo */
 .logo {
   display: flex;
   align-items: center;
@@ -183,10 +192,11 @@
     align-items: center;
     background-color: var(--menu-mobile-background-color);
     height: 100%;
-    overflow-y: auto;
+    /* overflow-y: auto; */
     opacity: 0;
     pointer-events: none;
     transition: opacity 0.5s;
+    margin: 0 auto;
   }
 
   .menu li {
@@ -268,13 +278,14 @@
   .logo span {
     font-size: 0.6em;
   }
-  body {
-    overflow-x: hidden;
-  }
   /* Dark Mode */
   .themeIcon {
     margin-right: 10em;
     width: 1.4em;
     height: 1.5em;
   }
+  /* body {
+    overflow-x: hidden;
+  } */
+
 }
